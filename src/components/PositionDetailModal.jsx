@@ -270,3 +270,4 @@ export default function PositionDetailModal({ position, onClose }) {
     </div>
   );
 }
+

@@ -202,3 +202,4 @@ export default function TasksTab({ searchQuery, onSelectPosition }) {
     </div>
   );
 }
+

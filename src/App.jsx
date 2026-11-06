@@ -5,6 +5,7 @@ import PositionsTab from './components/PositionsTab';
 import TasksTab from './components/TasksTab';
 import JobsTab from './components/JobsTab';
 import WorkloadsTab from './components/WorkloadsTab';
+import ImpactTab from './components/ImpactTab';
 import DemandsTab from './components/DemandsTab';
 import StaffingTab from './components/StaffingTab';
 import GuidelinesTab from './components/GuidelinesTab';
@@ -20,7 +21,8 @@ import {
   Layers,
   Sparkles,
   School,
-  ExternalLink
+  ExternalLink,
+  Cpu
 } from 'lucide-react';
 import { vtvlData } from './data/vtvlData';
 
@@ -35,6 +37,7 @@ export default function App() {
     { id: 'tasks', label: 'Biểu A1 - Nhiệm Vụ', icon: ListTodo, badge: '14' },
     { id: 'jobs', label: 'Biểu A2 - Công Việc', icon: Layers, badge: '33' },
     { id: 'workloads', label: 'Biểu B1 - Khối Lượng & Giờ', icon: Clock, badge: '33' },
+    { id: 'impact', label: 'Mục 4 & 5 - Tác Động B2', icon: Cpu, badge: '10' },
     { id: 'demands', label: 'Biểu C3 - Xác Định Nhu Cầu', icon: Calculator, badge: 'Mô phỏng' },
     { id: 'staffing', label: 'Biểu D1 & D2 - Nhân Lực 2027', icon: Users, badge: '35 BC' },
     { id: 'guidelines', label: 'Cẩm Nang Tra Cứu HD 07', icon: BookOpen, badge: null },
@@ -120,6 +123,13 @@ export default function App() {
 
         {activeTab === 'workloads' && (
           <WorkloadsTab 
+            searchQuery={searchQuery}
+            onSelectPosition={(pos) => setSelectedPosition(pos)}
+          />
+        )}
+
+        {activeTab === 'impact' && (
+          <ImpactTab 
             searchQuery={searchQuery}
             onSelectPosition={(pos) => setSelectedPosition(pos)}
           />

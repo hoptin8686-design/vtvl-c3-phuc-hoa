@@ -24,7 +24,9 @@ export const vtvlData = {
     "totalAssignedStaff2027": 36,
     "totalNeededStaff": 1,
     "totalCanAllocateStaff2027": 36,
-    "totalWorkloadHours": 1793045.08,
+    "totalWorkloadHours": 0,
+    "totalHoursReducedB2": 19089.29,
+    "totalNetHours": -19089.29,
     "groupBreakdown": {
       "lanhDao": 7,
       "chuyenMon": 22,
@@ -494,12 +496,12 @@ export const vtvlData = {
   "workloads": [
     {
       "jobCode": "LK-CV-01",
-      "vtvlCode": "THPT-LĐQL.01",
+      "vtvlCode": "",
       "productsPerYear": 279,
       "minutesPerProduct": 45,
       "additionalHours": 2790,
-      "computedProductHours": 209.25,
-      "totalHours": 2999.25,
+      "computedProductHours": 0,
+      "totalHours": 0,
       "quantitySource": "Hồ sơ",
       "timeSource": "1/10/2025 - 30/9/2026",
       "basisStatus": "Kiểm đếm, ước lượng thực tế",
@@ -508,19 +510,19 @@ export const vtvlData = {
       "group": "",
       "standardMinutes": 0,
       "standardConfirmed": "",
-      "minutesUsed": 45,
-      "timeSourceUsed": "Ước lượng thực tế; 1/10/2025 - 30/9/2026",
-      "warning": "ĐẠT",
+      "minutesUsed": 0,
+      "timeSourceUsed": "",
+      "warning": "",
       "explanation": ""
     },
     {
       "jobCode": "LK-CV-02",
-      "vtvlCode": "THPT-LĐQL.01",
+      "vtvlCode": "",
       "productsPerYear": 595,
       "minutesPerProduct": 30,
       "additionalHours": 2979,
-      "computedProductHours": 297.5,
-      "totalHours": 3276.5,
+      "computedProductHours": 0,
+      "totalHours": 0,
       "quantitySource": "Hồ sơ",
       "timeSource": "1/10/2025 - 30/9/2026",
       "basisStatus": "Kiểm đếm, ước lượng thực tế",
@@ -529,19 +531,19 @@ export const vtvlData = {
       "group": "",
       "standardMinutes": 0,
       "standardConfirmed": "",
-      "minutesUsed": 30,
-      "timeSourceUsed": "Ước lượng thực tế; 1/10/2025 - 30/9/2026",
-      "warning": "ĐẠT",
+      "minutesUsed": 0,
+      "timeSourceUsed": "",
+      "warning": "",
       "explanation": ""
     },
     {
       "jobCode": "LK-CV-03",
-      "vtvlCode": "THPT-LĐQL.01",
+      "vtvlCode": "",
       "productsPerYear": 60,
       "minutesPerProduct": 30,
       "additionalHours": 300,
-      "computedProductHours": 30,
-      "totalHours": 330,
+      "computedProductHours": 0,
+      "totalHours": 0,
       "quantitySource": "Hồ sơ",
       "timeSource": "1/10/2025 - 30/9/2026",
       "basisStatus": "Kiểm đếm, ước lượng thực tế",
@@ -550,19 +552,19 @@ export const vtvlData = {
       "group": "",
       "standardMinutes": 0,
       "standardConfirmed": "",
-      "minutesUsed": 30,
-      "timeSourceUsed": "Ước lượng thực tế; 1/10/2025 - 30/9/2026",
-      "warning": "ĐẠT",
+      "minutesUsed": 0,
+      "timeSourceUsed": "",
+      "warning": "",
       "explanation": ""
     },
     {
       "jobCode": "LK-CV-04",
-      "vtvlCode": "THPT-LĐQL.02",
+      "vtvlCode": "",
       "productsPerYear": 148,
       "minutesPerProduct": 30,
       "additionalHours": 300,
-      "computedProductHours": 74,
-      "totalHours": 374,
+      "computedProductHours": 0,
+      "totalHours": 0,
       "quantitySource": "Hồ sơ",
       "timeSource": "1/10/2025 - 30/9/2026",
       "basisStatus": "Kiểm đếm, ước lượng thực tế",
@@ -571,19 +573,19 @@ export const vtvlData = {
       "group": "",
       "standardMinutes": 0,
       "standardConfirmed": "",
-      "minutesUsed": 30,
-      "timeSourceUsed": "Ước lượng thực tế; 1/10/2025 - 30/9/2026",
-      "warning": "ĐẠT",
+      "minutesUsed": 0,
+      "timeSourceUsed": "",
+      "warning": "",
       "explanation": ""
     },
     {
       "jobCode": "LK-CV-05",
-      "vtvlCode": "THPT-LĐQL.02",
+      "vtvlCode": "",
       "productsPerYear": 23,
       "minutesPerProduct": 45,
       "additionalHours": 230,
-      "computedProductHours": 17.25,
-      "totalHours": 247.25,
+      "computedProductHours": 0,
+      "totalHours": 0,
       "quantitySource": "Hồ sơ",
       "timeSource": "1/10/2025 - 30/9/2026",
       "basisStatus": "Kiểm đếm, ước lượng thực tế",
@@ -592,19 +594,19 @@ export const vtvlData = {
       "group": "",
       "standardMinutes": 0,
       "standardConfirmed": "",
-      "minutesUsed": 45,
-      "timeSourceUsed": "Ước lượng thực tế; 1/10/2025 - 30/9/2026",
-      "warning": "ĐẠT",
+      "minutesUsed": 0,
+      "timeSourceUsed": "",
+      "warning": "",
       "explanation": ""
     },
     {
       "jobCode": "LK-CV-06",
-      "vtvlCode": "THPT-LĐQL.02",
+      "vtvlCode": "",
       "productsPerYear": 34,
       "minutesPerProduct": 30,
       "additionalHours": 340,
-      "computedProductHours": 17,
-      "totalHours": 357,
+      "computedProductHours": 0,
+      "totalHours": 0,
       "quantitySource": "Hồ sơ",
       "timeSource": "1/10/2025 - 30/9/2026",
       "basisStatus": "Kiểm đếm, ước lượng thực tế",
@@ -613,19 +615,19 @@ export const vtvlData = {
       "group": "",
       "standardMinutes": 0,
       "standardConfirmed": "",
-      "minutesUsed": 30,
-      "timeSourceUsed": "Ước lượng thực tế; 1/10/2025 - 30/9/2026",
-      "warning": "ĐẠT",
+      "minutesUsed": 0,
+      "timeSourceUsed": "",
+      "warning": "",
       "explanation": ""
     },
     {
       "jobCode": "LK-CV-07",
-      "vtvlCode": "THPT-LĐQL.03",
+      "vtvlCode": "",
       "productsPerYear": 5,
       "minutesPerProduct": 45,
       "additionalHours": 50,
-      "computedProductHours": 3.75,
-      "totalHours": 53.75,
+      "computedProductHours": 0,
+      "totalHours": 0,
       "quantitySource": "Hồ sơ",
       "timeSource": "1/10/2025 - 30/9/2026",
       "basisStatus": "Kiểm đếm, ước lượng thực tế",
@@ -634,19 +636,19 @@ export const vtvlData = {
       "group": "",
       "standardMinutes": 0,
       "standardConfirmed": "",
-      "minutesUsed": 45,
-      "timeSourceUsed": "Ước lượng thực tế; 1/10/2025 - 30/9/2026",
-      "warning": "ĐẠT",
+      "minutesUsed": 0,
+      "timeSourceUsed": "",
+      "warning": "",
       "explanation": ""
     },
     {
       "jobCode": "LK-CV-08",
-      "vtvlCode": "THPT-LĐQL.03",
+      "vtvlCode": "",
       "productsPerYear": 90,
       "minutesPerProduct": 30,
       "additionalHours": 450,
-      "computedProductHours": 45,
-      "totalHours": 495,
+      "computedProductHours": 0,
+      "totalHours": 0,
       "quantitySource": "Hồ sơ",
       "timeSource": "1/10/2025 - 30/9/2026",
       "basisStatus": "Kiểm đếm, ước lượng thực tế",
@@ -655,19 +657,19 @@ export const vtvlData = {
       "group": "",
       "standardMinutes": 0,
       "standardConfirmed": "",
-      "minutesUsed": 30,
-      "timeSourceUsed": "Ước lượng thực tế; 1/10/2025 - 30/9/2026",
-      "warning": "ĐẠT",
+      "minutesUsed": 0,
+      "timeSourceUsed": "",
+      "warning": "",
       "explanation": ""
     },
     {
       "jobCode": "LK-CV-09",
-      "vtvlCode": "THPT-LĐQL.04",
+      "vtvlCode": "",
       "productsPerYear": 90,
       "minutesPerProduct": 30,
       "additionalHours": 450,
-      "computedProductHours": 45,
-      "totalHours": 495,
+      "computedProductHours": 0,
+      "totalHours": 0,
       "quantitySource": "Hồ sơ",
       "timeSource": "1/10/2025 - 30/9/2026",
       "basisStatus": "Kiểm đếm, ước lượng thực tế",
@@ -676,19 +678,19 @@ export const vtvlData = {
       "group": "",
       "standardMinutes": 0,
       "standardConfirmed": "",
-      "minutesUsed": 30,
-      "timeSourceUsed": "Ước lượng thực tế; 1/10/2025 - 30/9/2026",
-      "warning": "ĐẠT",
+      "minutesUsed": 0,
+      "timeSourceUsed": "",
+      "warning": "",
       "explanation": ""
     },
     {
       "jobCode": "LK-CV-10",
-      "vtvlCode": "THPT-CMNV.01",
+      "vtvlCode": "",
       "productsPerYear": 15787,
       "minutesPerProduct": 60,
       "additionalHours": 1578700,
-      "computedProductHours": 15787,
-      "totalHours": 1594487,
+      "computedProductHours": 0,
+      "totalHours": 0,
       "quantitySource": "Hồ sơ",
       "timeSource": "1/10/2025 - 30/9/2026",
       "basisStatus": "Kiểm đếm, ước lượng thực tế",
@@ -697,19 +699,19 @@ export const vtvlData = {
       "group": "",
       "standardMinutes": 0,
       "standardConfirmed": "",
-      "minutesUsed": 60,
-      "timeSourceUsed": "Ước lượng thực tế; 1/10/2025 - 30/9/2026",
-      "warning": "ĐẠT",
+      "minutesUsed": 0,
+      "timeSourceUsed": "",
+      "warning": "",
       "explanation": ""
     },
     {
       "jobCode": "LK-CV-11",
-      "vtvlCode": "THPT-CMNV.01",
+      "vtvlCode": "",
       "productsPerYear": 22326,
       "minutesPerProduct": 45,
       "additionalHours": 0,
-      "computedProductHours": 16744.5,
-      "totalHours": 16744.5,
+      "computedProductHours": 0,
+      "totalHours": 0,
       "quantitySource": "Thông tư 20/2023/TTBGDĐT",
       "timeSource": "1/10/2025 - 30/9/2026",
       "basisStatus": "Kiểm đếm, ước lượng thực tế",
@@ -718,19 +720,19 @@ export const vtvlData = {
       "group": "",
       "standardMinutes": 0,
       "standardConfirmed": "",
-      "minutesUsed": 45,
-      "timeSourceUsed": "Ước lượng thực tế; 1/10/2025 - 30/9/2026",
-      "warning": "ĐẠT",
+      "minutesUsed": 0,
+      "timeSourceUsed": "",
+      "warning": "",
       "explanation": ""
     },
     {
       "jobCode": "LK-CV-12",
-      "vtvlCode": "THPT-CMNV.01",
+      "vtvlCode": "",
       "productsPerYear": 202768,
       "minutesPerProduct": 45,
       "additionalHours": 0,
-      "computedProductHours": 152076,
-      "totalHours": 152076,
+      "computedProductHours": 0,
+      "totalHours": 0,
       "quantitySource": "Phần mềm",
       "timeSource": "1/10/2025 - 30/9/2026",
       "basisStatus": "Kiểm đếm, ước lượng thực tế",
@@ -739,19 +741,19 @@ export const vtvlData = {
       "group": "",
       "standardMinutes": 0,
       "standardConfirmed": "",
-      "minutesUsed": 45,
-      "timeSourceUsed": "Ước lượng thực tế; 1/10/2025 - 30/9/2026",
-      "warning": "ĐẠT",
+      "minutesUsed": 0,
+      "timeSourceUsed": "",
+      "warning": "",
       "explanation": ""
     },
     {
       "jobCode": "LK-CV-13",
-      "vtvlCode": "THPT-CMNV.01",
+      "vtvlCode": "",
       "productsPerYear": 669,
       "minutesPerProduct": 60,
       "additionalHours": 10035,
-      "computedProductHours": 669,
-      "totalHours": 10704,
+      "computedProductHours": 0,
+      "totalHours": 0,
       "quantitySource": "Phần mềm",
       "timeSource": "1/10/2025 - 30/9/2026",
       "basisStatus": "Kiểm đếm, ước lượng thực tế",
@@ -760,19 +762,19 @@ export const vtvlData = {
       "group": "",
       "standardMinutes": 0,
       "standardConfirmed": "",
-      "minutesUsed": 60,
-      "timeSourceUsed": "Ước lượng thực tế; 1/10/2025 - 30/9/2026",
-      "warning": "ĐẠT",
+      "minutesUsed": 0,
+      "timeSourceUsed": "",
+      "warning": "",
       "explanation": ""
     },
     {
       "jobCode": "LK-CV-14",
-      "vtvlCode": "THPT-CMNV.01",
+      "vtvlCode": "",
       "productsPerYear": 23,
       "minutesPerProduct": 90,
       "additionalHours": 230,
-      "computedProductHours": 34.5,
-      "totalHours": 264.5,
+      "computedProductHours": 0,
+      "totalHours": 0,
       "quantitySource": "Hồ sơ",
       "timeSource": "1/10/2025 - 30/9/2026",
       "basisStatus": "Kiểm đếm, ước lượng thực tế",
@@ -781,19 +783,19 @@ export const vtvlData = {
       "group": "",
       "standardMinutes": 0,
       "standardConfirmed": "",
-      "minutesUsed": 90,
-      "timeSourceUsed": "Ước lượng thực tế; 1/10/2025 - 30/9/2026",
-      "warning": "ĐẠT",
+      "minutesUsed": 0,
+      "timeSourceUsed": "",
+      "warning": "",
       "explanation": ""
     },
     {
       "jobCode": "LK-CV-15",
-      "vtvlCode": "THPT-HT.01",
+      "vtvlCode": "",
       "productsPerYear": 125,
       "minutesPerProduct": 15,
       "additionalHours": 0,
-      "computedProductHours": 31.25,
-      "totalHours": 31.25,
+      "computedProductHours": 0,
+      "totalHours": 0,
       "quantitySource": "Hồ sơ",
       "timeSource": "1/10/2025 - 30/9/2026",
       "basisStatus": "Kiểm đếm, ước lượng thực tế",
@@ -802,19 +804,19 @@ export const vtvlData = {
       "group": "",
       "standardMinutes": 0,
       "standardConfirmed": "",
-      "minutesUsed": 15,
-      "timeSourceUsed": "Ước lượng thực tế; 1/10/2025 - 30/9/2026",
-      "warning": "ĐẠT",
+      "minutesUsed": 0,
+      "timeSourceUsed": "",
+      "warning": "",
       "explanation": ""
     },
     {
       "jobCode": "LK-CV-16",
-      "vtvlCode": "THPT-HT.01",
+      "vtvlCode": "",
       "productsPerYear": 16,
       "minutesPerProduct": 25,
       "additionalHours": 0,
-      "computedProductHours": 6.67,
-      "totalHours": 6.67,
+      "computedProductHours": 0,
+      "totalHours": 0,
       "quantitySource": "Hồ sơ",
       "timeSource": "1/10/2025 - 30/9/2026",
       "basisStatus": "Kiểm đếm, ước lượng thực tế",
@@ -823,19 +825,19 @@ export const vtvlData = {
       "group": "",
       "standardMinutes": 0,
       "standardConfirmed": "",
-      "minutesUsed": 25,
-      "timeSourceUsed": "Ước lượng thực tế; 1/10/2025 - 30/9/2026",
-      "warning": "ĐẠT",
+      "minutesUsed": 0,
+      "timeSourceUsed": "",
+      "warning": "",
       "explanation": ""
     },
     {
       "jobCode": "LK-CV-17",
-      "vtvlCode": "THPT-HT.01",
+      "vtvlCode": "",
       "productsPerYear": 28,
       "minutesPerProduct": 45,
       "additionalHours": 280,
-      "computedProductHours": 21,
-      "totalHours": 301,
+      "computedProductHours": 0,
+      "totalHours": 0,
       "quantitySource": "Hồ sơ",
       "timeSource": "1/10/2025 - 30/9/2026",
       "basisStatus": "Kiểm đếm, ước lượng thực tế",
@@ -844,19 +846,19 @@ export const vtvlData = {
       "group": "",
       "standardMinutes": 0,
       "standardConfirmed": "",
-      "minutesUsed": 45,
-      "timeSourceUsed": "Ước lượng thực tế; 1/10/2025 - 30/9/2026",
-      "warning": "ĐẠT",
+      "minutesUsed": 0,
+      "timeSourceUsed": "",
+      "warning": "",
       "explanation": ""
     },
     {
       "jobCode": "LK-CV-18",
-      "vtvlCode": "THPT-HT.03",
+      "vtvlCode": "",
       "productsPerYear": 4,
       "minutesPerProduct": 129,
       "additionalHours": 120,
-      "computedProductHours": 8.6,
-      "totalHours": 128.6,
+      "computedProductHours": 0,
+      "totalHours": 0,
       "quantitySource": "Hồ sơ",
       "timeSource": "1/10/2025 - 30/9/2026",
       "basisStatus": "Kiểm đếm, ước lượng thực tế",
@@ -865,19 +867,19 @@ export const vtvlData = {
       "group": "",
       "standardMinutes": 0,
       "standardConfirmed": "",
-      "minutesUsed": 129,
-      "timeSourceUsed": "Ước lượng thực tế; 1/10/2025 - 30/9/2026",
-      "warning": "ĐẠT",
+      "minutesUsed": 0,
+      "timeSourceUsed": "",
+      "warning": "",
       "explanation": ""
     },
     {
       "jobCode": "LK-CV-19",
-      "vtvlCode": "THPT-HT.03",
+      "vtvlCode": "",
       "productsPerYear": 144,
       "minutesPerProduct": 10,
       "additionalHours": 0,
-      "computedProductHours": 24,
-      "totalHours": 24,
+      "computedProductHours": 0,
+      "totalHours": 0,
       "quantitySource": "Hồ sơ",
       "timeSource": "1/10/2025 - 30/9/2026",
       "basisStatus": "Kiểm đếm, ước lượng thực tế",
@@ -886,19 +888,19 @@ export const vtvlData = {
       "group": "",
       "standardMinutes": 0,
       "standardConfirmed": "",
-      "minutesUsed": 10,
-      "timeSourceUsed": "Ước lượng thực tế; 1/10/2025 - 30/9/2026",
-      "warning": "ĐẠT",
+      "minutesUsed": 0,
+      "timeSourceUsed": "",
+      "warning": "",
       "explanation": ""
     },
     {
       "jobCode": "LK-CV-20",
-      "vtvlCode": "THPT-HT.04",
+      "vtvlCode": "",
       "productsPerYear": 389,
       "minutesPerProduct": 60,
       "additionalHours": 1945,
-      "computedProductHours": 389,
-      "totalHours": 2334,
+      "computedProductHours": 0,
+      "totalHours": 0,
       "quantitySource": "Phần mềm",
       "timeSource": "1/10/2025 - 30/9/2026",
       "basisStatus": "Kiểm đếm, ước lượng thực tế",
@@ -907,19 +909,19 @@ export const vtvlData = {
       "group": "",
       "standardMinutes": 0,
       "standardConfirmed": "",
-      "minutesUsed": 60,
-      "timeSourceUsed": "Ước lượng thực tế; 1/10/2025 - 30/9/2026",
-      "warning": "ĐẠT",
+      "minutesUsed": 0,
+      "timeSourceUsed": "",
+      "warning": "",
       "explanation": ""
     },
     {
       "jobCode": "LK-CV-21",
-      "vtvlCode": "THPT-HT.04",
+      "vtvlCode": "",
       "productsPerYear": 12,
       "minutesPerProduct": 120,
       "additionalHours": 600,
-      "computedProductHours": 24,
-      "totalHours": 624,
+      "computedProductHours": 0,
+      "totalHours": 0,
       "quantitySource": "Hồ sơ",
       "timeSource": "1/10/2025 - 30/9/2026",
       "basisStatus": "Kiểm đếm, ước lượng thực tế",
@@ -928,19 +930,19 @@ export const vtvlData = {
       "group": "",
       "standardMinutes": 0,
       "standardConfirmed": "",
-      "minutesUsed": 120,
-      "timeSourceUsed": "Ước lượng thực tế; 1/10/2025 - 30/9/2026",
-      "warning": "ĐẠT",
+      "minutesUsed": 0,
+      "timeSourceUsed": "",
+      "warning": "",
       "explanation": ""
     },
     {
       "jobCode": "LK-CV-22",
-      "vtvlCode": "THPT-HT.04",
+      "vtvlCode": "",
       "productsPerYear": 16,
       "minutesPerProduct": 10,
       "additionalHours": 0,
-      "computedProductHours": 2.67,
-      "totalHours": 2.67,
+      "computedProductHours": 0,
+      "totalHours": 0,
       "quantitySource": "Hồ sơ",
       "timeSource": "1/10/2025 - 30/9/2026",
       "basisStatus": "Kiểm đếm, ước lượng thực tế",
@@ -949,19 +951,19 @@ export const vtvlData = {
       "group": "",
       "standardMinutes": 0,
       "standardConfirmed": "",
-      "minutesUsed": 10,
-      "timeSourceUsed": "Ước lượng thực tế; 1/10/2025 - 30/9/2026",
-      "warning": "ĐẠT",
+      "minutesUsed": 0,
+      "timeSourceUsed": "",
+      "warning": "",
       "explanation": ""
     },
     {
       "jobCode": "LK-CV-23",
-      "vtvlCode": "THPT-HT.05",
+      "vtvlCode": "",
       "productsPerYear": 4031,
       "minutesPerProduct": 5,
       "additionalHours": 0,
-      "computedProductHours": 335.92,
-      "totalHours": 335.92,
+      "computedProductHours": 0,
+      "totalHours": 0,
       "quantitySource": "Hồ sơ",
       "timeSource": "1/10/2025 - 30/9/2026",
       "basisStatus": "Kiểm đếm, ước lượng thực tế",
@@ -970,19 +972,19 @@ export const vtvlData = {
       "group": "",
       "standardMinutes": 0,
       "standardConfirmed": "",
-      "minutesUsed": 5,
-      "timeSourceUsed": "Ước lượng thực tế; 1/10/2025 - 30/9/2026",
-      "warning": "ĐẠT",
+      "minutesUsed": 0,
+      "timeSourceUsed": "",
+      "warning": "",
       "explanation": ""
     },
     {
       "jobCode": "LK-CV-24",
-      "vtvlCode": "THPT-HT.05",
+      "vtvlCode": "",
       "productsPerYear": 934,
       "minutesPerProduct": 2,
       "additionalHours": 0,
-      "computedProductHours": 31.13,
-      "totalHours": 31.13,
+      "computedProductHours": 0,
+      "totalHours": 0,
       "quantitySource": "Hồ sơ",
       "timeSource": "1/10/2025 - 30/9/2026",
       "basisStatus": "Kiểm đếm, ước lượng thực tế",
@@ -991,19 +993,19 @@ export const vtvlData = {
       "group": "",
       "standardMinutes": 0,
       "standardConfirmed": "",
-      "minutesUsed": 2,
-      "timeSourceUsed": "Ước lượng thực tế; 1/10/2025 - 30/9/2026",
-      "warning": "ĐẠT",
+      "minutesUsed": 0,
+      "timeSourceUsed": "",
+      "warning": "",
       "explanation": ""
     },
     {
       "jobCode": "LK-CV-25",
-      "vtvlCode": "THPT-HT.05",
+      "vtvlCode": "",
       "productsPerYear": 4031,
       "minutesPerProduct": 5,
       "additionalHours": 0,
-      "computedProductHours": 335.92,
-      "totalHours": 335.92,
+      "computedProductHours": 0,
+      "totalHours": 0,
       "quantitySource": "Hồ sơ",
       "timeSource": "1/10/2025 - 30/9/2026",
       "basisStatus": "Kiểm đếm, ước lượng thực tế",
@@ -1012,19 +1014,19 @@ export const vtvlData = {
       "group": "",
       "standardMinutes": 0,
       "standardConfirmed": "",
-      "minutesUsed": 5,
-      "timeSourceUsed": "Ước lượng thực tế; 1/10/2025 - 30/9/2026",
-      "warning": "ĐẠT",
+      "minutesUsed": 0,
+      "timeSourceUsed": "",
+      "warning": "",
       "explanation": ""
     },
     {
       "jobCode": "LK-CV-26",
-      "vtvlCode": "THPT-HT.06",
+      "vtvlCode": "",
       "productsPerYear": 7,
       "minutesPerProduct": 120,
       "additionalHours": 0,
-      "computedProductHours": 14,
-      "totalHours": 14,
+      "computedProductHours": 0,
+      "totalHours": 0,
       "quantitySource": "Hồ sơ",
       "timeSource": "1/10/2025 - 30/9/2026",
       "basisStatus": "Kiểm đếm, ước lượng thực tế",
@@ -1033,19 +1035,19 @@ export const vtvlData = {
       "group": "",
       "standardMinutes": 0,
       "standardConfirmed": "",
-      "minutesUsed": 120,
-      "timeSourceUsed": "Ước lượng thực tế; 1/10/2025 - 30/9/2026",
-      "warning": "ĐẠT",
+      "minutesUsed": 0,
+      "timeSourceUsed": "",
+      "warning": "",
       "explanation": ""
     },
     {
       "jobCode": "LK-CV-27",
-      "vtvlCode": "THPT-HT.07",
+      "vtvlCode": "",
       "productsPerYear": 443,
       "minutesPerProduct": 5,
       "additionalHours": 2215,
-      "computedProductHours": 36.92,
-      "totalHours": 2251.92,
+      "computedProductHours": 0,
+      "totalHours": 0,
       "quantitySource": "Hồ sơ",
       "timeSource": "1/10/2025 - 30/9/2026",
       "basisStatus": "Kiểm đếm, ước lượng thực tế",
@@ -1054,19 +1056,19 @@ export const vtvlData = {
       "group": "",
       "standardMinutes": 0,
       "standardConfirmed": "",
-      "minutesUsed": 5,
-      "timeSourceUsed": "Ước lượng thực tế; 1/10/2025 - 30/9/2026",
-      "warning": "ĐẠT",
+      "minutesUsed": 0,
+      "timeSourceUsed": "",
+      "warning": "",
       "explanation": ""
     },
     {
       "jobCode": "LK-CV-28",
-      "vtvlCode": "THPT-HT.07",
+      "vtvlCode": "",
       "productsPerYear": 2,
       "minutesPerProduct": 240,
       "additionalHours": 0,
-      "computedProductHours": 8,
-      "totalHours": 8,
+      "computedProductHours": 0,
+      "totalHours": 0,
       "quantitySource": "Hồ sơ",
       "timeSource": "1/10/2025 - 30/9/2026",
       "basisStatus": "Kiểm đếm, ước lượng thực tế",
@@ -1075,19 +1077,19 @@ export const vtvlData = {
       "group": "",
       "standardMinutes": 0,
       "standardConfirmed": "",
-      "minutesUsed": 240,
-      "timeSourceUsed": "Ước lượng thực tế; 1/10/2025 - 30/9/2026",
-      "warning": "ĐẠT",
+      "minutesUsed": 0,
+      "timeSourceUsed": "",
+      "warning": "",
       "explanation": ""
     },
     {
       "jobCode": "LK-CV-29",
-      "vtvlCode": "THPT-HT.07",
+      "vtvlCode": "",
       "productsPerYear": 1,
       "minutesPerProduct": 405,
       "additionalHours": 60,
-      "computedProductHours": 6.75,
-      "totalHours": 66.75,
+      "computedProductHours": 0,
+      "totalHours": 0,
       "quantitySource": "Hồ sơ",
       "timeSource": "1/10/2025 - 30/9/2026",
       "basisStatus": "Kiểm đếm, ước lượng thực tế",
@@ -1096,19 +1098,19 @@ export const vtvlData = {
       "group": "",
       "standardMinutes": 0,
       "standardConfirmed": "",
-      "minutesUsed": 405,
-      "timeSourceUsed": "Ước lượng thực tế; 1/10/2025 - 30/9/2026",
-      "warning": "ĐẠT",
+      "minutesUsed": 0,
+      "timeSourceUsed": "",
+      "warning": "",
       "explanation": ""
     },
     {
       "jobCode": "LK-CV-30",
-      "vtvlCode": "THPT-LĐQL.01",
+      "vtvlCode": "",
       "productsPerYear": 88,
       "minutesPerProduct": 45,
       "additionalHours": 880,
-      "computedProductHours": 66,
-      "totalHours": 946,
+      "computedProductHours": 0,
+      "totalHours": 0,
       "quantitySource": "Hồ sơ",
       "timeSource": "1/10/2025 - 30/9/2026",
       "basisStatus": "Kiểm đếm, ước lượng thực tế",
@@ -1117,19 +1119,19 @@ export const vtvlData = {
       "group": "",
       "standardMinutes": 0,
       "standardConfirmed": "",
-      "minutesUsed": 45,
-      "timeSourceUsed": "Ước lượng thực tế; 1/10/2025 - 30/9/2026",
-      "warning": "ĐẠT",
+      "minutesUsed": 0,
+      "timeSourceUsed": "",
+      "warning": "",
       "explanation": ""
     },
     {
       "jobCode": "LK-CV-31",
-      "vtvlCode": "THPT-LĐQL.02",
+      "vtvlCode": "",
       "productsPerYear": 196,
       "minutesPerProduct": 45,
       "additionalHours": 1960,
-      "computedProductHours": 147,
-      "totalHours": 2107,
+      "computedProductHours": 0,
+      "totalHours": 0,
       "quantitySource": "Hồ sơ",
       "timeSource": "1/10/2025 - 30/9/2026",
       "basisStatus": "Kiểm đếm, ước lượng thực tế",
@@ -1138,19 +1140,19 @@ export const vtvlData = {
       "group": "",
       "standardMinutes": 0,
       "standardConfirmed": "",
-      "minutesUsed": 45,
-      "timeSourceUsed": "Ước lượng thực tế; 1/10/2025 - 30/9/2026",
-      "warning": "ĐẠT",
+      "minutesUsed": 0,
+      "timeSourceUsed": "",
+      "warning": "",
       "explanation": ""
     },
     {
       "jobCode": "LK-CV-32",
-      "vtvlCode": "THPT-HT.02",
+      "vtvlCode": "",
       "productsPerYear": 28,
       "minutesPerProduct": 60,
       "additionalHours": 280,
-      "computedProductHours": 28,
-      "totalHours": 308,
+      "computedProductHours": 0,
+      "totalHours": 0,
       "quantitySource": "Hồ sơ",
       "timeSource": "1/10/2025 - 30/9/2026",
       "basisStatus": "Kiểm đếm, ước lượng thực tế",
@@ -1159,19 +1161,19 @@ export const vtvlData = {
       "group": "",
       "standardMinutes": 0,
       "standardConfirmed": "",
-      "minutesUsed": 60,
-      "timeSourceUsed": "Ước lượng thực tế; 1/10/2025 - 30/9/2026",
-      "warning": "ĐẠT",
+      "minutesUsed": 0,
+      "timeSourceUsed": "",
+      "warning": "",
       "explanation": ""
     },
     {
       "jobCode": "LK-CV-33",
-      "vtvlCode": "THPT-HT.02",
+      "vtvlCode": "",
       "productsPerYear": 569,
       "minutesPerProduct": 30,
       "additionalHours": 0,
-      "computedProductHours": 284.5,
-      "totalHours": 284.5,
+      "computedProductHours": 0,
+      "totalHours": 0,
       "quantitySource": "Hồ sơ",
       "timeSource": "1/10/2025 - 30/9/2026",
       "basisStatus": "Kiểm đếm, ước lượng thực tế",
@@ -1180,10 +1182,314 @@ export const vtvlData = {
       "group": "",
       "standardMinutes": 0,
       "standardConfirmed": "",
-      "minutesUsed": 30,
-      "timeSourceUsed": "Ước lượng thực tế; 1/10/2025 - 30/9/2026",
-      "warning": "ĐẠT",
+      "minutesUsed": 0,
+      "timeSourceUsed": "",
+      "warning": "",
       "explanation": ""
+    }
+  ],
+  "b2ImpactDetails": [
+    {
+      "jobCode": "LK-CV-01",
+      "vtvlCode": "THPT-LĐQL.01",
+      "impactType": "Cải tiến quy trình",
+      "stage": "Rà soát, tổng hợp ý kiến góp ý và phê duyệt kế hoạch hoạt động qua môi trường trực tuyến",
+      "spApplied": 150,
+      "minutesBefore": 45,
+      "minutesAfter": 25,
+      "directHoursReduced": 50.0,
+      "newHours": 0,
+      "source": "Kế hoạch chuyển đổi số Trường THPT Phục Hòa",
+      "period": "1/10/2025 - 30/9/2026",
+      "basisB1": "Trước thay đổi, có điều chỉnh",
+      "status": "Đã kiểm chứng",
+      "validHoursReduced": 50.0,
+      "validHoursIncreased": 0,
+      "check": "ĐẠT",
+      "verified": "Đã đối chiếu"
+    },
+    {
+      "jobCode": "LK-CV-10",
+      "vtvlCode": "THPT-CMNV.01",
+      "impactType": "Số hóa",
+      "stage": "Soạn thảo, số hóa học liệu và kế hoạch bài dạy trên kho học liệu số dùng chung",
+      "spApplied": 8000,
+      "minutesBefore": 60,
+      "minutesAfter": 45,
+      "directHoursReduced": 2000.0,
+      "newHours": 0,
+      "source": "Hệ thống Quản lý học liệu số vnEdu & CSDL Bộ GD&ĐT",
+      "period": "1/10/2025 - 30/9/2026",
+      "basisB1": "Trước thay đổi, có điều chỉnh",
+      "status": "Đã kiểm chứng",
+      "validHoursReduced": 2000.0,
+      "validHoursIncreased": 0,
+      "check": "ĐẠT",
+      "verified": "Đã đối chiếu"
+    },
+    {
+      "jobCode": "LK-CV-12",
+      "vtvlCode": "THPT-CMNV.01",
+      "impactType": "Số hóa",
+      "stage": "Nhập điểm, tổng hợp kết quả học tập và xuất sổ theo dõi trên phần mềm vnEdu",
+      "spApplied": 50000,
+      "minutesBefore": 45,
+      "minutesAfter": 25,
+      "directHoursReduced": 16666.67,
+      "newHours": 0,
+      "source": "Hệ thống Quản lý trường học vnEdu - Sở GD&ĐT Cao Bằng",
+      "period": "1/10/2025 - 30/9/2026",
+      "basisB1": "Trước thay đổi, có điều chỉnh",
+      "status": "Đã kiểm chứng",
+      "validHoursReduced": 16666.67,
+      "validHoursIncreased": 0,
+      "check": "ĐẠT",
+      "verified": "Đã đối chiếu"
+    },
+    {
+      "jobCode": "LK-CV-18",
+      "vtvlCode": "THPT-HT.03",
+      "impactType": "Số hóa",
+      "stage": "Kiểm kê, phân loại và theo dõi danh mục thiết bị, hóa chất thí nghiệm bằng phần mềm số",
+      "spApplied": 3,
+      "minutesBefore": 129,
+      "minutesAfter": 60,
+      "directHoursReduced": 3.45,
+      "newHours": 0,
+      "source": "Phần mềm Quản lý thiết bị trường học trực tuyến",
+      "period": "1/10/2025 - 30/9/2026",
+      "basisB1": "Trước thay đổi, có điều chỉnh",
+      "status": "Đã kiểm chứng",
+      "validHoursReduced": 3.45,
+      "validHoursIncreased": 0,
+      "check": "ĐẠT",
+      "verified": "Đã đối chiếu"
+    },
+    {
+      "jobCode": "LK-CV-20",
+      "vtvlCode": "THPT-HT.04",
+      "impactType": "Số hóa",
+      "stage": "Nhập chứng từ, hạch toán kế toán và giao dịch hồ sơ qua DVC Kho bạc & MISA Mimosa",
+      "spApplied": 250,
+      "minutesBefore": 60,
+      "minutesAfter": 35,
+      "directHoursReduced": 104.17,
+      "newHours": 0,
+      "source": "Phần mềm MISA Mimosa Online & Cổng DVC KBNN",
+      "period": "1/10/2025 - 30/9/2026",
+      "basisB1": "Trước thay đổi, có điều chỉnh",
+      "status": "Đã kiểm chứng",
+      "validHoursReduced": 104.17,
+      "validHoursIncreased": 0,
+      "check": "ĐẠT",
+      "verified": "Đã đối chiếu"
+    },
+    {
+      "jobCode": "LK-CV-23",
+      "vtvlCode": "THPT-HT.05",
+      "impactType": "Số hóa",
+      "stage": "Tiếp nhận, vào sổ đăng ký điện tử và chuyển phát văn bản qua hệ thống VNPT iOffice",
+      "spApplied": 3000,
+      "minutesBefore": 5,
+      "minutesAfter": 2,
+      "directHoursReduced": 150.0,
+      "newHours": 0,
+      "source": "Hệ thống Quản lý văn bản và điều hành VNPT iOffice",
+      "period": "1/10/2025 - 30/9/2026",
+      "basisB1": "Trước thay đổi, có điều chỉnh",
+      "status": "Đã kiểm chứng",
+      "validHoursReduced": 150.0,
+      "validHoursIncreased": 0,
+      "check": "ĐẠT",
+      "verified": "Đã đối chiếu"
+    },
+    {
+      "jobCode": "LK-CV-24",
+      "vtvlCode": "THPT-HT.05",
+      "impactType": "Cải tiến quy trình",
+      "stage": "Kiểm tra thể thức và ký số token tổ chức thay thế ký đóng dấu giấy thủ công",
+      "spApplied": 600,
+      "minutesBefore": 2,
+      "minutesAfter": 1,
+      "directHoursReduced": 10.0,
+      "newHours": 0,
+      "source": "Hệ thống Quản lý văn bản và điều hành VNPT iOffice",
+      "period": "1/10/2025 - 30/9/2026",
+      "basisB1": "Trước thay đổi, có điều chỉnh",
+      "status": "Đã kiểm chứng",
+      "validHoursReduced": 10.0,
+      "validHoursIncreased": 0,
+      "check": "ĐẠT",
+      "verified": "Đã đối chiếu"
+    },
+    {
+      "jobCode": "LK-CV-27",
+      "vtvlCode": "THPT-HT.07",
+      "impactType": "Số hóa",
+      "stage": "Cập nhật và theo dõi hồ sơ sức khỏe học sinh định kỳ trên phần mềm y tế học đường",
+      "spApplied": 400,
+      "minutesBefore": 5,
+      "minutesAfter": 2,
+      "directHoursReduced": 20.0,
+      "newHours": 0,
+      "source": "Hồ sơ y tế điện tử trường học",
+      "period": "1/10/2025 - 30/9/2026",
+      "basisB1": "Trước thay đổi, có điều chỉnh",
+      "status": "Đã kiểm chứng",
+      "validHoursReduced": 20.0,
+      "validHoursIncreased": 0,
+      "check": "ĐẠT",
+      "verified": "Đã đối chiếu"
+    },
+    {
+      "jobCode": "LK-CV-32",
+      "vtvlCode": "THPT-HT.02",
+      "impactType": "Số hóa",
+      "stage": "Quản lý học bạ điện tử, xác thực dữ liệu và đồng bộ cơ sở dữ liệu ngành giáo dục",
+      "spApplied": 20,
+      "minutesBefore": 60,
+      "minutesAfter": 30,
+      "directHoursReduced": 10.0,
+      "newHours": 0,
+      "source": "Cơ sở dữ liệu ngành giáo dục CSDL.edu.vn & vnEdu",
+      "period": "1/10/2025 - 30/9/2026",
+      "basisB1": "Trước thay đổi, có điều chỉnh",
+      "status": "Đã kiểm chứng",
+      "validHoursReduced": 10.0,
+      "validHoursIncreased": 0,
+      "check": "ĐẠT",
+      "verified": "Đã đối chiếu"
+    },
+    {
+      "jobCode": "LK-CV-33",
+      "vtvlCode": "THPT-HT.02",
+      "impactType": "Cải tiến quy trình",
+      "stage": "Tổng hợp, kiểm tra dữ liệu lịch trình giảng dạy và kế hoạch giáo vụ trực tuyến",
+      "spApplied": 300,
+      "minutesBefore": 30,
+      "minutesAfter": 15,
+      "directHoursReduced": 75.0,
+      "newHours": 0,
+      "source": "Hệ thống phần mềm quản lý kế hoạch giáo dục",
+      "period": "1/10/2025 - 30/9/2026",
+      "basisB1": "Trước thay đổi, có điều chỉnh",
+      "status": "Đã kiểm chứng",
+      "validHoursReduced": 75.0,
+      "validHoursIncreased": 0,
+      "check": "ĐẠT",
+      "verified": "Đã đối chiếu"
+    }
+  ],
+  "b2Summary": [
+    {
+      "jobCode": "LK-CV-01",
+      "vtvlCode": "THPT-LĐQL.01",
+      "digitalHoursReduced": 50.0,
+      "outsourceHoursReduced": 0,
+      "newHours": 0,
+      "netImpactHours": -50.0,
+      "status": "Đã kiểm chứng",
+      "detailCount": 1,
+      "warning": "ĐẠT"
+    },
+    {
+      "jobCode": "LK-CV-10",
+      "vtvlCode": "THPT-CMNV.01",
+      "digitalHoursReduced": 2000.0,
+      "outsourceHoursReduced": 0,
+      "newHours": 0,
+      "netImpactHours": -2000.0,
+      "status": "Đã kiểm chứng",
+      "detailCount": 1,
+      "warning": "ĐẠT"
+    },
+    {
+      "jobCode": "LK-CV-12",
+      "vtvlCode": "THPT-CMNV.01",
+      "digitalHoursReduced": 16666.67,
+      "outsourceHoursReduced": 0,
+      "newHours": 0,
+      "netImpactHours": -16666.67,
+      "status": "Đã kiểm chứng",
+      "detailCount": 1,
+      "warning": "ĐẠT"
+    },
+    {
+      "jobCode": "LK-CV-18",
+      "vtvlCode": "THPT-HT.03",
+      "digitalHoursReduced": 3.45,
+      "outsourceHoursReduced": 0,
+      "newHours": 0,
+      "netImpactHours": -3.45,
+      "status": "Đã kiểm chứng",
+      "detailCount": 1,
+      "warning": "ĐẠT"
+    },
+    {
+      "jobCode": "LK-CV-20",
+      "vtvlCode": "THPT-HT.04",
+      "digitalHoursReduced": 104.17,
+      "outsourceHoursReduced": 0,
+      "newHours": 0,
+      "netImpactHours": -104.17,
+      "status": "Đã kiểm chứng",
+      "detailCount": 1,
+      "warning": "ĐẠT"
+    },
+    {
+      "jobCode": "LK-CV-23",
+      "vtvlCode": "THPT-HT.05",
+      "digitalHoursReduced": 150.0,
+      "outsourceHoursReduced": 0,
+      "newHours": 0,
+      "netImpactHours": -150.0,
+      "status": "Đã kiểm chứng",
+      "detailCount": 1,
+      "warning": "ĐẠT"
+    },
+    {
+      "jobCode": "LK-CV-24",
+      "vtvlCode": "THPT-HT.05",
+      "digitalHoursReduced": 10.0,
+      "outsourceHoursReduced": 0,
+      "newHours": 0,
+      "netImpactHours": -10.0,
+      "status": "Đã kiểm chứng",
+      "detailCount": 1,
+      "warning": "ĐẠT"
+    },
+    {
+      "jobCode": "LK-CV-27",
+      "vtvlCode": "THPT-HT.07",
+      "digitalHoursReduced": 20.0,
+      "outsourceHoursReduced": 0,
+      "newHours": 0,
+      "netImpactHours": -20.0,
+      "status": "Đã kiểm chứng",
+      "detailCount": 1,
+      "warning": "ĐẠT"
+    },
+    {
+      "jobCode": "LK-CV-32",
+      "vtvlCode": "THPT-HT.02",
+      "digitalHoursReduced": 10.0,
+      "outsourceHoursReduced": 0,
+      "newHours": 0,
+      "netImpactHours": -10.0,
+      "status": "Đã kiểm chứng",
+      "detailCount": 1,
+      "warning": "ĐẠT"
+    },
+    {
+      "jobCode": "LK-CV-33",
+      "vtvlCode": "THPT-HT.02",
+      "digitalHoursReduced": 75.0,
+      "outsourceHoursReduced": 0,
+      "newHours": 0,
+      "netImpactHours": -75.0,
+      "status": "Đã kiểm chứng",
+      "detailCount": 1,
+      "warning": "ĐẠT"
     }
   ],
   "positions": [
@@ -1210,12 +1516,12 @@ export const vtvlData = {
           "source": "Đề án vị trí việc làm",
           "workload": {
             "jobCode": "LK-CV-01",
-            "vtvlCode": "THPT-LĐQL.01",
+            "vtvlCode": "",
             "productsPerYear": 279,
             "minutesPerProduct": 45,
             "additionalHours": 2790,
-            "computedProductHours": 209.25,
-            "totalHours": 2999.25,
+            "computedProductHours": 0,
+            "totalHours": 0,
             "quantitySource": "Hồ sơ",
             "timeSource": "1/10/2025 - 30/9/2026",
             "basisStatus": "Kiểm đếm, ước lượng thực tế",
@@ -1224,9 +1530,9 @@ export const vtvlData = {
             "group": "",
             "standardMinutes": 0,
             "standardConfirmed": "",
-            "minutesUsed": 45,
-            "timeSourceUsed": "Ước lượng thực tế; 1/10/2025 - 30/9/2026",
-            "warning": "ĐẠT",
+            "minutesUsed": 0,
+            "timeSourceUsed": "",
+            "warning": "",
             "explanation": ""
           }
         },
@@ -1241,12 +1547,12 @@ export const vtvlData = {
           "source": "Đề án vị trí việc làm",
           "workload": {
             "jobCode": "LK-CV-02",
-            "vtvlCode": "THPT-LĐQL.01",
+            "vtvlCode": "",
             "productsPerYear": 595,
             "minutesPerProduct": 30,
             "additionalHours": 2979,
-            "computedProductHours": 297.5,
-            "totalHours": 3276.5,
+            "computedProductHours": 0,
+            "totalHours": 0,
             "quantitySource": "Hồ sơ",
             "timeSource": "1/10/2025 - 30/9/2026",
             "basisStatus": "Kiểm đếm, ước lượng thực tế",
@@ -1255,9 +1561,9 @@ export const vtvlData = {
             "group": "",
             "standardMinutes": 0,
             "standardConfirmed": "",
-            "minutesUsed": 30,
-            "timeSourceUsed": "Ước lượng thực tế; 1/10/2025 - 30/9/2026",
-            "warning": "ĐẠT",
+            "minutesUsed": 0,
+            "timeSourceUsed": "",
+            "warning": "",
             "explanation": ""
           }
         },
@@ -1272,12 +1578,12 @@ export const vtvlData = {
           "source": "Đề án vị trí việc làm",
           "workload": {
             "jobCode": "LK-CV-03",
-            "vtvlCode": "THPT-LĐQL.01",
+            "vtvlCode": "",
             "productsPerYear": 60,
             "minutesPerProduct": 30,
             "additionalHours": 300,
-            "computedProductHours": 30,
-            "totalHours": 330,
+            "computedProductHours": 0,
+            "totalHours": 0,
             "quantitySource": "Hồ sơ",
             "timeSource": "1/10/2025 - 30/9/2026",
             "basisStatus": "Kiểm đếm, ước lượng thực tế",
@@ -1286,9 +1592,9 @@ export const vtvlData = {
             "group": "",
             "standardMinutes": 0,
             "standardConfirmed": "",
-            "minutesUsed": 30,
-            "timeSourceUsed": "Ước lượng thực tế; 1/10/2025 - 30/9/2026",
-            "warning": "ĐẠT",
+            "minutesUsed": 0,
+            "timeSourceUsed": "",
+            "warning": "",
             "explanation": ""
           }
         },
@@ -1303,12 +1609,12 @@ export const vtvlData = {
           "source": "Đề án vị trí việc làm",
           "workload": {
             "jobCode": "LK-CV-30",
-            "vtvlCode": "THPT-LĐQL.01",
+            "vtvlCode": "",
             "productsPerYear": 88,
             "minutesPerProduct": 45,
             "additionalHours": 880,
-            "computedProductHours": 66,
-            "totalHours": 946,
+            "computedProductHours": 0,
+            "totalHours": 0,
             "quantitySource": "Hồ sơ",
             "timeSource": "1/10/2025 - 30/9/2026",
             "basisStatus": "Kiểm đếm, ước lượng thực tế",
@@ -1317,14 +1623,14 @@ export const vtvlData = {
             "group": "",
             "standardMinutes": 0,
             "standardConfirmed": "",
-            "minutesUsed": 45,
-            "timeSourceUsed": "Ước lượng thực tế; 1/10/2025 - 30/9/2026",
-            "warning": "ĐẠT",
+            "minutesUsed": 0,
+            "timeSourceUsed": "",
+            "warning": "",
             "explanation": ""
           }
         }
       ],
-      "totalWorkloadHours": 7551.75,
+      "totalWorkloadHours": 0,
       "linkedTasks": [
         "LK-NV-01",
         "LK-NV-13",
@@ -1342,16 +1648,16 @@ export const vtvlData = {
       "demand": {
         "code": "THPT-LĐQL.01",
         "method": "PP1",
-        "b1Hours": 7551.75,
-        "b2ImpactHours": 0,
-        "netHours": 7551.75,
+        "b1Hours": 0,
+        "b2ImpactHours": -50.0,
+        "netHours": -50.0,
         "pp2StandardHours": 1904,
         "pp2CalculatedStaff": 0,
         "pp1Staff": 1,
         "neededStaff": 0,
         "sourceExplanation": "1",
         "status": "Nghị định 232/NĐ-CP",
-        "warning": "Tính thử",
+        "warning": "ĐẠT",
         "unqualifiedB1Rows": 0
       },
       "currentStaff": {
@@ -1364,7 +1670,7 @@ export const vtvlData = {
         "payrollUnit": "Sở GD&ĐT Cao Bằng",
         "source": "QĐ 1548/QĐ-SGD&ĐT",
         "status": "Đã kiểm chứng",
-        "warning": "Đạt"
+        "warning": ""
       },
       "plan2027": {
         "vtvlCode": "THPT-LĐQL.01",
@@ -1376,9 +1682,9 @@ export const vtvlData = {
         "requestAdjustStaff": 0,
         "sourceExplanation": "Đề án vị trí việc làm",
         "status": "Đang xây dựng",
-        "warning": "C3 CHƯA ĐƯỢC XÁC NHẬN",
+        "warning": "",
         "pp2RefStaff": 0,
-        "c3BaseStaff": 1
+        "c3BaseStaff": 0
       }
     },
     {
@@ -1404,12 +1710,12 @@ export const vtvlData = {
           "source": "Đề án vị trí việc làm",
           "workload": {
             "jobCode": "LK-CV-04",
-            "vtvlCode": "THPT-LĐQL.02",
+            "vtvlCode": "",
             "productsPerYear": 148,
             "minutesPerProduct": 30,
             "additionalHours": 300,
-            "computedProductHours": 74,
-            "totalHours": 374,
+            "computedProductHours": 0,
+            "totalHours": 0,
             "quantitySource": "Hồ sơ",
             "timeSource": "1/10/2025 - 30/9/2026",
             "basisStatus": "Kiểm đếm, ước lượng thực tế",
@@ -1418,9 +1724,9 @@ export const vtvlData = {
             "group": "",
             "standardMinutes": 0,
             "standardConfirmed": "",
-            "minutesUsed": 30,
-            "timeSourceUsed": "Ước lượng thực tế; 1/10/2025 - 30/9/2026",
-            "warning": "ĐẠT",
+            "minutesUsed": 0,
+            "timeSourceUsed": "",
+            "warning": "",
             "explanation": ""
           }
         },
@@ -1435,12 +1741,12 @@ export const vtvlData = {
           "source": "Đề án vị trí việc làm",
           "workload": {
             "jobCode": "LK-CV-05",
-            "vtvlCode": "THPT-LĐQL.02",
+            "vtvlCode": "",
             "productsPerYear": 23,
             "minutesPerProduct": 45,
             "additionalHours": 230,
-            "computedProductHours": 17.25,
-            "totalHours": 247.25,
+            "computedProductHours": 0,
+            "totalHours": 0,
             "quantitySource": "Hồ sơ",
             "timeSource": "1/10/2025 - 30/9/2026",
             "basisStatus": "Kiểm đếm, ước lượng thực tế",
@@ -1449,9 +1755,9 @@ export const vtvlData = {
             "group": "",
             "standardMinutes": 0,
             "standardConfirmed": "",
-            "minutesUsed": 45,
-            "timeSourceUsed": "Ước lượng thực tế; 1/10/2025 - 30/9/2026",
-            "warning": "ĐẠT",
+            "minutesUsed": 0,
+            "timeSourceUsed": "",
+            "warning": "",
             "explanation": ""
           }
         },
@@ -1466,12 +1772,12 @@ export const vtvlData = {
           "source": "Đề án vị trí việc làm",
           "workload": {
             "jobCode": "LK-CV-06",
-            "vtvlCode": "THPT-LĐQL.02",
+            "vtvlCode": "",
             "productsPerYear": 34,
             "minutesPerProduct": 30,
             "additionalHours": 340,
-            "computedProductHours": 17,
-            "totalHours": 357,
+            "computedProductHours": 0,
+            "totalHours": 0,
             "quantitySource": "Hồ sơ",
             "timeSource": "1/10/2025 - 30/9/2026",
             "basisStatus": "Kiểm đếm, ước lượng thực tế",
@@ -1480,9 +1786,9 @@ export const vtvlData = {
             "group": "",
             "standardMinutes": 0,
             "standardConfirmed": "",
-            "minutesUsed": 30,
-            "timeSourceUsed": "Ước lượng thực tế; 1/10/2025 - 30/9/2026",
-            "warning": "ĐẠT",
+            "minutesUsed": 0,
+            "timeSourceUsed": "",
+            "warning": "",
             "explanation": ""
           }
         },
@@ -1497,12 +1803,12 @@ export const vtvlData = {
           "source": "Đề án vị trí việc làm",
           "workload": {
             "jobCode": "LK-CV-31",
-            "vtvlCode": "THPT-LĐQL.02",
+            "vtvlCode": "",
             "productsPerYear": 196,
             "minutesPerProduct": 45,
             "additionalHours": 1960,
-            "computedProductHours": 147,
-            "totalHours": 2107,
+            "computedProductHours": 0,
+            "totalHours": 0,
             "quantitySource": "Hồ sơ",
             "timeSource": "1/10/2025 - 30/9/2026",
             "basisStatus": "Kiểm đếm, ước lượng thực tế",
@@ -1511,17 +1817,17 @@ export const vtvlData = {
             "group": "",
             "standardMinutes": 0,
             "standardConfirmed": "",
-            "minutesUsed": 45,
-            "timeSourceUsed": "Ước lượng thực tế; 1/10/2025 - 30/9/2026",
-            "warning": "ĐẠT",
+            "minutesUsed": 0,
+            "timeSourceUsed": "",
+            "warning": "",
             "explanation": ""
           }
         }
       ],
-      "totalWorkloadHours": 3085.25,
+      "totalWorkloadHours": 0,
       "linkedTasks": [
-        "LK-NV-13",
         "LK-NV-03",
+        "LK-NV-13",
         "LK-NV-02"
       ],
       "competency": {
@@ -1536,16 +1842,16 @@ export const vtvlData = {
       "demand": {
         "code": "THPT-LĐQL.02",
         "method": "PP1+PP3",
-        "b1Hours": 3085.25,
+        "b1Hours": 0,
         "b2ImpactHours": 0,
-        "netHours": 3085.25,
+        "netHours": 0,
         "pp2StandardHours": 1904,
         "pp2CalculatedStaff": 0,
         "pp1Staff": 2,
         "neededStaff": 0,
         "sourceExplanation": "2",
         "status": "Nghị định 232/NĐ-CP",
-        "warning": "Tính thử",
+        "warning": "ĐẠT",
         "unqualifiedB1Rows": 0
       },
       "currentStaff": {
@@ -1558,7 +1864,7 @@ export const vtvlData = {
         "payrollUnit": "Sở GD&ĐT Cao Bằng",
         "source": "QĐ 1548/QĐ-SGD&ĐT",
         "status": "Đã kiểm chứng",
-        "warning": "Đạt"
+        "warning": ""
       },
       "plan2027": {
         "vtvlCode": "THPT-LĐQL.02",
@@ -1570,9 +1876,9 @@ export const vtvlData = {
         "requestAdjustStaff": 0,
         "sourceExplanation": "Đề án vị trí việc làm",
         "status": "Đang xây dựng",
-        "warning": "#VALUE!",
+        "warning": "",
         "pp2RefStaff": 0,
-        "c3BaseStaff": 2
+        "c3BaseStaff": 0
       }
     },
     {
@@ -1598,12 +1904,12 @@ export const vtvlData = {
           "source": "Đề án vị trí việc làm",
           "workload": {
             "jobCode": "LK-CV-07",
-            "vtvlCode": "THPT-LĐQL.03",
+            "vtvlCode": "",
             "productsPerYear": 5,
             "minutesPerProduct": 45,
             "additionalHours": 50,
-            "computedProductHours": 3.75,
-            "totalHours": 53.75,
+            "computedProductHours": 0,
+            "totalHours": 0,
             "quantitySource": "Hồ sơ",
             "timeSource": "1/10/2025 - 30/9/2026",
             "basisStatus": "Kiểm đếm, ước lượng thực tế",
@@ -1612,9 +1918,9 @@ export const vtvlData = {
             "group": "",
             "standardMinutes": 0,
             "standardConfirmed": "",
-            "minutesUsed": 45,
-            "timeSourceUsed": "Ước lượng thực tế; 1/10/2025 - 30/9/2026",
-            "warning": "ĐẠT",
+            "minutesUsed": 0,
+            "timeSourceUsed": "",
+            "warning": "",
             "explanation": ""
           }
         },
@@ -1629,12 +1935,12 @@ export const vtvlData = {
           "source": "Đề án vị trí việc làm",
           "workload": {
             "jobCode": "LK-CV-08",
-            "vtvlCode": "THPT-LĐQL.03",
+            "vtvlCode": "",
             "productsPerYear": 90,
             "minutesPerProduct": 30,
             "additionalHours": 450,
-            "computedProductHours": 45,
-            "totalHours": 495,
+            "computedProductHours": 0,
+            "totalHours": 0,
             "quantitySource": "Hồ sơ",
             "timeSource": "1/10/2025 - 30/9/2026",
             "basisStatus": "Kiểm đếm, ước lượng thực tế",
@@ -1643,14 +1949,14 @@ export const vtvlData = {
             "group": "",
             "standardMinutes": 0,
             "standardConfirmed": "",
-            "minutesUsed": 30,
-            "timeSourceUsed": "Ước lượng thực tế; 1/10/2025 - 30/9/2026",
-            "warning": "ĐẠT",
+            "minutesUsed": 0,
+            "timeSourceUsed": "",
+            "warning": "",
             "explanation": ""
           }
         }
       ],
-      "totalWorkloadHours": 548.75,
+      "totalWorkloadHours": 0,
       "linkedTasks": [
         "LK-NV-04"
       ],
@@ -1666,16 +1972,16 @@ export const vtvlData = {
       "demand": {
         "code": "THPT-LĐQL.03",
         "method": "PP1+PP3",
-        "b1Hours": 548.75,
+        "b1Hours": 0,
         "b2ImpactHours": 0,
-        "netHours": 548.75,
+        "netHours": 0,
         "pp2StandardHours": 1904,
         "pp2CalculatedStaff": 0,
         "pp1Staff": 2,
         "neededStaff": 0,
         "sourceExplanation": "2",
         "status": "Nghị định 232/NĐ-CP",
-        "warning": "Tính thử",
+        "warning": "ĐẠT",
         "unqualifiedB1Rows": 0
       },
       "currentStaff": {
@@ -1688,7 +1994,7 @@ export const vtvlData = {
         "payrollUnit": "Sở GD&ĐT Cao Bằng",
         "source": "QĐ 1548/QĐ-SGD&ĐT",
         "status": "Đã kiểm chứng",
-        "warning": "Đạt"
+        "warning": ""
       },
       "plan2027": {
         "vtvlCode": "THPT-LĐQL.03",
@@ -1700,9 +2006,9 @@ export const vtvlData = {
         "requestAdjustStaff": 0,
         "sourceExplanation": "Đề án vị trí việc làm",
         "status": "Đang xây dựng",
-        "warning": "#VALUE!",
+        "warning": "",
         "pp2RefStaff": 0,
-        "c3BaseStaff": 2
+        "c3BaseStaff": 0
       }
     },
     {
@@ -1728,12 +2034,12 @@ export const vtvlData = {
           "source": "Đề án vị trí việc làm",
           "workload": {
             "jobCode": "LK-CV-09",
-            "vtvlCode": "THPT-LĐQL.04",
+            "vtvlCode": "",
             "productsPerYear": 90,
             "minutesPerProduct": 30,
             "additionalHours": 450,
-            "computedProductHours": 45,
-            "totalHours": 495,
+            "computedProductHours": 0,
+            "totalHours": 0,
             "quantitySource": "Hồ sơ",
             "timeSource": "1/10/2025 - 30/9/2026",
             "basisStatus": "Kiểm đếm, ước lượng thực tế",
@@ -1742,14 +2048,14 @@ export const vtvlData = {
             "group": "",
             "standardMinutes": 0,
             "standardConfirmed": "",
-            "minutesUsed": 30,
-            "timeSourceUsed": "Ước lượng thực tế; 1/10/2025 - 30/9/2026",
-            "warning": "ĐẠT",
+            "minutesUsed": 0,
+            "timeSourceUsed": "",
+            "warning": "",
             "explanation": ""
           }
         }
       ],
-      "totalWorkloadHours": 495,
+      "totalWorkloadHours": 0,
       "linkedTasks": [
         "LK-NV-04"
       ],
@@ -1765,16 +2071,16 @@ export const vtvlData = {
       "demand": {
         "code": "THPT-LĐQL.04",
         "method": "PP1+PP3",
-        "b1Hours": 495,
+        "b1Hours": 0,
         "b2ImpactHours": 0,
-        "netHours": 495,
+        "netHours": 0,
         "pp2StandardHours": 1904,
         "pp2CalculatedStaff": 0,
         "pp1Staff": 2,
         "neededStaff": 0,
         "sourceExplanation": "2",
         "status": "Nghị định 232/NĐ-CP",
-        "warning": "Tính thử",
+        "warning": "ĐẠT",
         "unqualifiedB1Rows": 0
       },
       "currentStaff": {
@@ -1787,7 +2093,7 @@ export const vtvlData = {
         "payrollUnit": "Sở GD&ĐT Cao Bằng",
         "source": "QĐ 1548/QĐ-SGD&ĐT",
         "status": "Đã kiểm chứng",
-        "warning": "Đạt"
+        "warning": ""
       },
       "plan2027": {
         "vtvlCode": "THPT-LĐQL.04",
@@ -1799,7 +2105,7 @@ export const vtvlData = {
         "requestAdjustStaff": 0,
         "sourceExplanation": "Đề án vị trí việc làm",
         "status": "Đang xây dựng",
-        "warning": "#VALUE!",
+        "warning": "",
         "pp2RefStaff": 0,
         "c3BaseStaff": 2
       }
@@ -1827,12 +2133,12 @@ export const vtvlData = {
           "source": "Đề án vị trí việc làm",
           "workload": {
             "jobCode": "LK-CV-10",
-            "vtvlCode": "THPT-CMNV.01",
+            "vtvlCode": "",
             "productsPerYear": 15787,
             "minutesPerProduct": 60,
             "additionalHours": 1578700,
-            "computedProductHours": 15787,
-            "totalHours": 1594487,
+            "computedProductHours": 0,
+            "totalHours": 0,
             "quantitySource": "Hồ sơ",
             "timeSource": "1/10/2025 - 30/9/2026",
             "basisStatus": "Kiểm đếm, ước lượng thực tế",
@@ -1841,9 +2147,9 @@ export const vtvlData = {
             "group": "",
             "standardMinutes": 0,
             "standardConfirmed": "",
-            "minutesUsed": 60,
-            "timeSourceUsed": "Ước lượng thực tế; 1/10/2025 - 30/9/2026",
-            "warning": "ĐẠT",
+            "minutesUsed": 0,
+            "timeSourceUsed": "",
+            "warning": "",
             "explanation": ""
           }
         },
@@ -1858,12 +2164,12 @@ export const vtvlData = {
           "source": "Đề án vị trí việc làm",
           "workload": {
             "jobCode": "LK-CV-11",
-            "vtvlCode": "THPT-CMNV.01",
+            "vtvlCode": "",
             "productsPerYear": 22326,
             "minutesPerProduct": 45,
             "additionalHours": 0,
-            "computedProductHours": 16744.5,
-            "totalHours": 16744.5,
+            "computedProductHours": 0,
+            "totalHours": 0,
             "quantitySource": "Thông tư 20/2023/TTBGDĐT",
             "timeSource": "1/10/2025 - 30/9/2026",
             "basisStatus": "Kiểm đếm, ước lượng thực tế",
@@ -1872,9 +2178,9 @@ export const vtvlData = {
             "group": "",
             "standardMinutes": 0,
             "standardConfirmed": "",
-            "minutesUsed": 45,
-            "timeSourceUsed": "Ước lượng thực tế; 1/10/2025 - 30/9/2026",
-            "warning": "ĐẠT",
+            "minutesUsed": 0,
+            "timeSourceUsed": "",
+            "warning": "",
             "explanation": ""
           }
         },
@@ -1889,12 +2195,12 @@ export const vtvlData = {
           "source": "Đề án vị trí việc làm",
           "workload": {
             "jobCode": "LK-CV-12",
-            "vtvlCode": "THPT-CMNV.01",
+            "vtvlCode": "",
             "productsPerYear": 202768,
             "minutesPerProduct": 45,
             "additionalHours": 0,
-            "computedProductHours": 152076,
-            "totalHours": 152076,
+            "computedProductHours": 0,
+            "totalHours": 0,
             "quantitySource": "Phần mềm",
             "timeSource": "1/10/2025 - 30/9/2026",
             "basisStatus": "Kiểm đếm, ước lượng thực tế",
@@ -1903,9 +2209,9 @@ export const vtvlData = {
             "group": "",
             "standardMinutes": 0,
             "standardConfirmed": "",
-            "minutesUsed": 45,
-            "timeSourceUsed": "Ước lượng thực tế; 1/10/2025 - 30/9/2026",
-            "warning": "ĐẠT",
+            "minutesUsed": 0,
+            "timeSourceUsed": "",
+            "warning": "",
             "explanation": ""
           }
         },
@@ -1920,12 +2226,12 @@ export const vtvlData = {
           "source": "Đề án vị trí việc làm",
           "workload": {
             "jobCode": "LK-CV-13",
-            "vtvlCode": "THPT-CMNV.01",
+            "vtvlCode": "",
             "productsPerYear": 669,
             "minutesPerProduct": 60,
             "additionalHours": 10035,
-            "computedProductHours": 669,
-            "totalHours": 10704,
+            "computedProductHours": 0,
+            "totalHours": 0,
             "quantitySource": "Phần mềm",
             "timeSource": "1/10/2025 - 30/9/2026",
             "basisStatus": "Kiểm đếm, ước lượng thực tế",
@@ -1934,9 +2240,9 @@ export const vtvlData = {
             "group": "",
             "standardMinutes": 0,
             "standardConfirmed": "",
-            "minutesUsed": 60,
-            "timeSourceUsed": "Ước lượng thực tế; 1/10/2025 - 30/9/2026",
-            "warning": "ĐẠT",
+            "minutesUsed": 0,
+            "timeSourceUsed": "",
+            "warning": "",
             "explanation": ""
           }
         },
@@ -1951,12 +2257,12 @@ export const vtvlData = {
           "source": "Đề án vị trí việc làm",
           "workload": {
             "jobCode": "LK-CV-14",
-            "vtvlCode": "THPT-CMNV.01",
+            "vtvlCode": "",
             "productsPerYear": 23,
             "minutesPerProduct": 90,
             "additionalHours": 230,
-            "computedProductHours": 34.5,
-            "totalHours": 264.5,
+            "computedProductHours": 0,
+            "totalHours": 0,
             "quantitySource": "Hồ sơ",
             "timeSource": "1/10/2025 - 30/9/2026",
             "basisStatus": "Kiểm đếm, ước lượng thực tế",
@@ -1965,17 +2271,17 @@ export const vtvlData = {
             "group": "",
             "standardMinutes": 0,
             "standardConfirmed": "",
-            "minutesUsed": 90,
-            "timeSourceUsed": "Ước lượng thực tế; 1/10/2025 - 30/9/2026",
-            "warning": "ĐẠT",
+            "minutesUsed": 0,
+            "timeSourceUsed": "",
+            "warning": "",
             "explanation": ""
           }
         }
       ],
-      "totalWorkloadHours": 1774276.0,
+      "totalWorkloadHours": 0,
       "linkedTasks": [
-        "LK-NV-06",
-        "LK-NV-05"
+        "LK-NV-05",
+        "LK-NV-06"
       ],
       "competency": {
         "code": "THPT-CMNV.01",
@@ -1989,16 +2295,16 @@ export const vtvlData = {
       "demand": {
         "code": "THPT-CMNV.01",
         "method": "PP1+PP3",
-        "b1Hours": 1774276,
-        "b2ImpactHours": 0,
-        "netHours": 1774276,
+        "b1Hours": 0,
+        "b2ImpactHours": -18666.67,
+        "netHours": -18666.67,
         "pp2StandardHours": 1904,
         "pp2CalculatedStaff": 0,
         "pp1Staff": 22,
         "neededStaff": 0,
         "sourceExplanation": "22",
         "status": "Nghị định 232/NĐ-CP",
-        "warning": "Tính thử",
+        "warning": "ĐẠT",
         "unqualifiedB1Rows": 0
       },
       "currentStaff": {
@@ -2011,7 +2317,7 @@ export const vtvlData = {
         "payrollUnit": "Sở GD&ĐT Cao Bằng",
         "source": "QĐ 1548/QĐ-SGD&ĐT",
         "status": "Đã kiểm chứng",
-        "warning": "Đạt"
+        "warning": ""
       },
       "plan2027": {
         "vtvlCode": "THPT-CMNV.01",
@@ -2023,7 +2329,7 @@ export const vtvlData = {
         "requestAdjustStaff": 0,
         "sourceExplanation": "Đề án vị trí việc làm",
         "status": "Đang xây dựng",
-        "warning": "#VALUE!",
+        "warning": "",
         "pp2RefStaff": 0,
         "c3BaseStaff": 17
       }
@@ -2051,12 +2357,12 @@ export const vtvlData = {
           "source": "Đề án vị trí việc làm",
           "workload": {
             "jobCode": "LK-CV-15",
-            "vtvlCode": "THPT-HT.01",
+            "vtvlCode": "",
             "productsPerYear": 125,
             "minutesPerProduct": 15,
             "additionalHours": 0,
-            "computedProductHours": 31.25,
-            "totalHours": 31.25,
+            "computedProductHours": 0,
+            "totalHours": 0,
             "quantitySource": "Hồ sơ",
             "timeSource": "1/10/2025 - 30/9/2026",
             "basisStatus": "Kiểm đếm, ước lượng thực tế",
@@ -2065,9 +2371,9 @@ export const vtvlData = {
             "group": "",
             "standardMinutes": 0,
             "standardConfirmed": "",
-            "minutesUsed": 15,
-            "timeSourceUsed": "Ước lượng thực tế; 1/10/2025 - 30/9/2026",
-            "warning": "ĐẠT",
+            "minutesUsed": 0,
+            "timeSourceUsed": "",
+            "warning": "",
             "explanation": ""
           }
         },
@@ -2082,12 +2388,12 @@ export const vtvlData = {
           "source": "Đề án vị trí việc làm",
           "workload": {
             "jobCode": "LK-CV-16",
-            "vtvlCode": "THPT-HT.01",
+            "vtvlCode": "",
             "productsPerYear": 16,
             "minutesPerProduct": 25,
             "additionalHours": 0,
-            "computedProductHours": 6.67,
-            "totalHours": 6.67,
+            "computedProductHours": 0,
+            "totalHours": 0,
             "quantitySource": "Hồ sơ",
             "timeSource": "1/10/2025 - 30/9/2026",
             "basisStatus": "Kiểm đếm, ước lượng thực tế",
@@ -2096,9 +2402,9 @@ export const vtvlData = {
             "group": "",
             "standardMinutes": 0,
             "standardConfirmed": "",
-            "minutesUsed": 25,
-            "timeSourceUsed": "Ước lượng thực tế; 1/10/2025 - 30/9/2026",
-            "warning": "ĐẠT",
+            "minutesUsed": 0,
+            "timeSourceUsed": "",
+            "warning": "",
             "explanation": ""
           }
         },
@@ -2113,12 +2419,12 @@ export const vtvlData = {
           "source": "Đề án vị trí việc làm",
           "workload": {
             "jobCode": "LK-CV-17",
-            "vtvlCode": "THPT-HT.01",
+            "vtvlCode": "",
             "productsPerYear": 28,
             "minutesPerProduct": 45,
             "additionalHours": 280,
-            "computedProductHours": 21,
-            "totalHours": 301,
+            "computedProductHours": 0,
+            "totalHours": 0,
             "quantitySource": "Hồ sơ",
             "timeSource": "1/10/2025 - 30/9/2026",
             "basisStatus": "Kiểm đếm, ước lượng thực tế",
@@ -2127,14 +2433,14 @@ export const vtvlData = {
             "group": "",
             "standardMinutes": 0,
             "standardConfirmed": "",
-            "minutesUsed": 45,
-            "timeSourceUsed": "Ước lượng thực tế; 1/10/2025 - 30/9/2026",
-            "warning": "ĐẠT",
+            "minutesUsed": 0,
+            "timeSourceUsed": "",
+            "warning": "",
             "explanation": ""
           }
         }
       ],
-      "totalWorkloadHours": 338.92,
+      "totalWorkloadHours": 0,
       "linkedTasks": [
         "LK-NV-07"
       ],
@@ -2150,16 +2456,16 @@ export const vtvlData = {
       "demand": {
         "code": "THPT-HT.01",
         "method": "PP3",
-        "b1Hours": 338.92,
+        "b1Hours": 0,
         "b2ImpactHours": 0,
-        "netHours": 338.92,
+        "netHours": 0,
         "pp2StandardHours": 1904,
         "pp2CalculatedStaff": 0,
         "pp1Staff": 1,
         "neededStaff": 0,
         "sourceExplanation": "1",
         "status": "Nghị định 232/NĐ-CP",
-        "warning": "Tính thử",
+        "warning": "ĐẠT",
         "unqualifiedB1Rows": 0
       },
       "currentStaff": {
@@ -2172,7 +2478,7 @@ export const vtvlData = {
         "payrollUnit": "Sở GD&ĐT Cao Bằng",
         "source": "QĐ 1548/QĐ-SGD&ĐT",
         "status": "Đã kiểm chứng",
-        "warning": "Đạt"
+        "warning": ""
       },
       "plan2027": {
         "vtvlCode": "THPT-HT.01",
@@ -2184,9 +2490,9 @@ export const vtvlData = {
         "requestAdjustStaff": 0,
         "sourceExplanation": "Đề án vị trí việc làm",
         "status": "Đang xây dựng",
-        "warning": "#VALUE!",
+        "warning": "",
         "pp2RefStaff": 0,
-        "c3BaseStaff": 1
+        "c3BaseStaff": 0
       }
     },
     {
@@ -2212,12 +2518,12 @@ export const vtvlData = {
           "source": "Đề án vị trí việc làm",
           "workload": {
             "jobCode": "LK-CV-32",
-            "vtvlCode": "THPT-HT.02",
+            "vtvlCode": "",
             "productsPerYear": 28,
             "minutesPerProduct": 60,
             "additionalHours": 280,
-            "computedProductHours": 28,
-            "totalHours": 308,
+            "computedProductHours": 0,
+            "totalHours": 0,
             "quantitySource": "Hồ sơ",
             "timeSource": "1/10/2025 - 30/9/2026",
             "basisStatus": "Kiểm đếm, ước lượng thực tế",
@@ -2226,9 +2532,9 @@ export const vtvlData = {
             "group": "",
             "standardMinutes": 0,
             "standardConfirmed": "",
-            "minutesUsed": 60,
-            "timeSourceUsed": "Ước lượng thực tế; 1/10/2025 - 30/9/2026",
-            "warning": "ĐẠT",
+            "minutesUsed": 0,
+            "timeSourceUsed": "",
+            "warning": "",
             "explanation": ""
           }
         },
@@ -2243,12 +2549,12 @@ export const vtvlData = {
           "source": "Đề án vị trí việc làm",
           "workload": {
             "jobCode": "LK-CV-33",
-            "vtvlCode": "THPT-HT.02",
+            "vtvlCode": "",
             "productsPerYear": 569,
             "minutesPerProduct": 30,
             "additionalHours": 0,
-            "computedProductHours": 284.5,
-            "totalHours": 284.5,
+            "computedProductHours": 0,
+            "totalHours": 0,
             "quantitySource": "Hồ sơ",
             "timeSource": "1/10/2025 - 30/9/2026",
             "basisStatus": "Kiểm đếm, ước lượng thực tế",
@@ -2257,14 +2563,14 @@ export const vtvlData = {
             "group": "",
             "standardMinutes": 0,
             "standardConfirmed": "",
-            "minutesUsed": 30,
-            "timeSourceUsed": "Ước lượng thực tế; 1/10/2025 - 30/9/2026",
-            "warning": "ĐẠT",
+            "minutesUsed": 0,
+            "timeSourceUsed": "",
+            "warning": "",
             "explanation": ""
           }
         }
       ],
-      "totalWorkloadHours": 592.5,
+      "totalWorkloadHours": 0,
       "linkedTasks": [
         "LK-NV-14"
       ],
@@ -2280,16 +2586,16 @@ export const vtvlData = {
       "demand": {
         "code": "THPT-HT.02",
         "method": "PP2+PP3",
-        "b1Hours": 592.5,
-        "b2ImpactHours": 0,
-        "netHours": 592.5,
+        "b1Hours": 0,
+        "b2ImpactHours": -85.0,
+        "netHours": -85.0,
         "pp2StandardHours": 1904,
-        "pp2CalculatedStaff": 0.31,
+        "pp2CalculatedStaff": 0,
         "pp1Staff": 1,
         "neededStaff": 0,
         "sourceExplanation": "1",
         "status": "Nghị định 232/NĐ-CP",
-        "warning": "Tính thử",
+        "warning": "ĐẠT",
         "unqualifiedB1Rows": 0
       },
       "currentStaff": {
@@ -2302,7 +2608,7 @@ export const vtvlData = {
         "payrollUnit": "Sở GD&ĐT Cao Bằng",
         "source": "QĐ 1548/QĐ-SGD&ĐT",
         "status": "Đã kiểm chứng",
-        "warning": "Đạt"
+        "warning": ""
       },
       "plan2027": {
         "vtvlCode": "THPT-HT.02",
@@ -2314,9 +2620,9 @@ export const vtvlData = {
         "requestAdjustStaff": 0,
         "sourceExplanation": "Đề án vị trí việc làm",
         "status": "Đang xây dựng",
-        "warning": "#VALUE!",
-        "pp2RefStaff": 0.31,
-        "c3BaseStaff": 1
+        "warning": "",
+        "pp2RefStaff": 0,
+        "c3BaseStaff": 0
       }
     },
     {
@@ -2342,12 +2648,12 @@ export const vtvlData = {
           "source": "Đề án vị trí việc làm",
           "workload": {
             "jobCode": "LK-CV-18",
-            "vtvlCode": "THPT-HT.03",
+            "vtvlCode": "",
             "productsPerYear": 4,
             "minutesPerProduct": 129,
             "additionalHours": 120,
-            "computedProductHours": 8.6,
-            "totalHours": 128.6,
+            "computedProductHours": 0,
+            "totalHours": 0,
             "quantitySource": "Hồ sơ",
             "timeSource": "1/10/2025 - 30/9/2026",
             "basisStatus": "Kiểm đếm, ước lượng thực tế",
@@ -2356,9 +2662,9 @@ export const vtvlData = {
             "group": "",
             "standardMinutes": 0,
             "standardConfirmed": "",
-            "minutesUsed": 129,
-            "timeSourceUsed": "Ước lượng thực tế; 1/10/2025 - 30/9/2026",
-            "warning": "ĐẠT",
+            "minutesUsed": 0,
+            "timeSourceUsed": "",
+            "warning": "",
             "explanation": ""
           }
         },
@@ -2373,12 +2679,12 @@ export const vtvlData = {
           "source": "Đề án vị trí việc làm",
           "workload": {
             "jobCode": "LK-CV-19",
-            "vtvlCode": "THPT-HT.03",
+            "vtvlCode": "",
             "productsPerYear": 144,
             "minutesPerProduct": 10,
             "additionalHours": 0,
-            "computedProductHours": 24,
-            "totalHours": 24,
+            "computedProductHours": 0,
+            "totalHours": 0,
             "quantitySource": "Hồ sơ",
             "timeSource": "1/10/2025 - 30/9/2026",
             "basisStatus": "Kiểm đếm, ước lượng thực tế",
@@ -2387,14 +2693,14 @@ export const vtvlData = {
             "group": "",
             "standardMinutes": 0,
             "standardConfirmed": "",
-            "minutesUsed": 10,
-            "timeSourceUsed": "Ước lượng thực tế; 1/10/2025 - 30/9/2026",
-            "warning": "ĐẠT",
+            "minutesUsed": 0,
+            "timeSourceUsed": "",
+            "warning": "",
             "explanation": ""
           }
         }
       ],
-      "totalWorkloadHours": 152.6,
+      "totalWorkloadHours": 0,
       "linkedTasks": [
         "LK-NV-08"
       ],
@@ -2410,16 +2716,16 @@ export const vtvlData = {
       "demand": {
         "code": "THPT-HT.03",
         "method": "PP2+PP3",
-        "b1Hours": 152.6,
-        "b2ImpactHours": 0,
-        "netHours": 152.6,
+        "b1Hours": 0,
+        "b2ImpactHours": -3.45,
+        "netHours": -3.45,
         "pp2StandardHours": 1904,
-        "pp2CalculatedStaff": 0.08,
+        "pp2CalculatedStaff": 0,
         "pp1Staff": 1,
         "neededStaff": 0,
         "sourceExplanation": "1",
         "status": "Nghị định 232/NĐ-CP",
-        "warning": "Tính thử",
+        "warning": "ĐẠT",
         "unqualifiedB1Rows": 0
       },
       "currentStaff": {
@@ -2432,7 +2738,7 @@ export const vtvlData = {
         "payrollUnit": "Sở GD&ĐT Cao Bằng",
         "source": "QĐ 1548/QĐ-SGD&ĐT",
         "status": "Đã kiểm chứng",
-        "warning": "Đạt"
+        "warning": ""
       },
       "plan2027": {
         "vtvlCode": "THPT-HT.03",
@@ -2444,9 +2750,9 @@ export const vtvlData = {
         "requestAdjustStaff": 0,
         "sourceExplanation": "Đề án vị trí việc làm",
         "status": "Đang xây dựng",
-        "warning": "#VALUE!",
-        "pp2RefStaff": 0.08,
-        "c3BaseStaff": 1
+        "warning": "",
+        "pp2RefStaff": 0,
+        "c3BaseStaff": 0
       }
     },
     {
@@ -2472,12 +2778,12 @@ export const vtvlData = {
           "source": "Đề án vị trí việc làm",
           "workload": {
             "jobCode": "LK-CV-20",
-            "vtvlCode": "THPT-HT.04",
+            "vtvlCode": "",
             "productsPerYear": 389,
             "minutesPerProduct": 60,
             "additionalHours": 1945,
-            "computedProductHours": 389,
-            "totalHours": 2334,
+            "computedProductHours": 0,
+            "totalHours": 0,
             "quantitySource": "Phần mềm",
             "timeSource": "1/10/2025 - 30/9/2026",
             "basisStatus": "Kiểm đếm, ước lượng thực tế",
@@ -2486,9 +2792,9 @@ export const vtvlData = {
             "group": "",
             "standardMinutes": 0,
             "standardConfirmed": "",
-            "minutesUsed": 60,
-            "timeSourceUsed": "Ước lượng thực tế; 1/10/2025 - 30/9/2026",
-            "warning": "ĐẠT",
+            "minutesUsed": 0,
+            "timeSourceUsed": "",
+            "warning": "",
             "explanation": ""
           }
         },
@@ -2503,12 +2809,12 @@ export const vtvlData = {
           "source": "Đề án vị trí việc làm",
           "workload": {
             "jobCode": "LK-CV-21",
-            "vtvlCode": "THPT-HT.04",
+            "vtvlCode": "",
             "productsPerYear": 12,
             "minutesPerProduct": 120,
             "additionalHours": 600,
-            "computedProductHours": 24,
-            "totalHours": 624,
+            "computedProductHours": 0,
+            "totalHours": 0,
             "quantitySource": "Hồ sơ",
             "timeSource": "1/10/2025 - 30/9/2026",
             "basisStatus": "Kiểm đếm, ước lượng thực tế",
@@ -2517,9 +2823,9 @@ export const vtvlData = {
             "group": "",
             "standardMinutes": 0,
             "standardConfirmed": "",
-            "minutesUsed": 120,
-            "timeSourceUsed": "Ước lượng thực tế; 1/10/2025 - 30/9/2026",
-            "warning": "ĐẠT",
+            "minutesUsed": 0,
+            "timeSourceUsed": "",
+            "warning": "",
             "explanation": ""
           }
         },
@@ -2534,12 +2840,12 @@ export const vtvlData = {
           "source": "Đề án vị trí việc làm",
           "workload": {
             "jobCode": "LK-CV-22",
-            "vtvlCode": "THPT-HT.04",
+            "vtvlCode": "",
             "productsPerYear": 16,
             "minutesPerProduct": 10,
             "additionalHours": 0,
-            "computedProductHours": 2.67,
-            "totalHours": 2.67,
+            "computedProductHours": 0,
+            "totalHours": 0,
             "quantitySource": "Hồ sơ",
             "timeSource": "1/10/2025 - 30/9/2026",
             "basisStatus": "Kiểm đếm, ước lượng thực tế",
@@ -2548,14 +2854,14 @@ export const vtvlData = {
             "group": "",
             "standardMinutes": 0,
             "standardConfirmed": "",
-            "minutesUsed": 10,
-            "timeSourceUsed": "Ước lượng thực tế; 1/10/2025 - 30/9/2026",
-            "warning": "ĐẠT",
+            "minutesUsed": 0,
+            "timeSourceUsed": "",
+            "warning": "",
             "explanation": ""
           }
         }
       ],
-      "totalWorkloadHours": 2960.67,
+      "totalWorkloadHours": 0,
       "linkedTasks": [
         "LK-NV-09"
       ],
@@ -2571,16 +2877,16 @@ export const vtvlData = {
       "demand": {
         "code": "THPT-HT.04",
         "method": "PP1+PP2",
-        "b1Hours": 2960.67,
-        "b2ImpactHours": 0,
-        "netHours": 2960.67,
+        "b1Hours": 0,
+        "b2ImpactHours": -104.17,
+        "netHours": -104.17,
         "pp2StandardHours": 1904,
-        "pp2CalculatedStaff": 1.55,
+        "pp2CalculatedStaff": 0,
         "pp1Staff": 1,
         "neededStaff": 0,
         "sourceExplanation": "1",
         "status": "Nghị định 232/NĐ-CP",
-        "warning": "Tính thử",
+        "warning": "ĐẠT",
         "unqualifiedB1Rows": 0
       },
       "currentStaff": {
@@ -2593,7 +2899,7 @@ export const vtvlData = {
         "payrollUnit": "Sở GD&ĐT Cao Bằng",
         "source": "QĐ 1548/QĐ-SGD&ĐT",
         "status": "Đã kiểm chứng",
-        "warning": "Đạt"
+        "warning": ""
       },
       "plan2027": {
         "vtvlCode": "THPT-HT.04",
@@ -2605,9 +2911,9 @@ export const vtvlData = {
         "requestAdjustStaff": 0,
         "sourceExplanation": "Đề án vị trí việc làm",
         "status": "Đang xây dựng",
-        "warning": "#VALUE!",
-        "pp2RefStaff": 1.55,
-        "c3BaseStaff": 1
+        "warning": "",
+        "pp2RefStaff": 0,
+        "c3BaseStaff": 0
       }
     },
     {
@@ -2633,12 +2939,12 @@ export const vtvlData = {
           "source": "Đề án vị trí việc làm",
           "workload": {
             "jobCode": "LK-CV-23",
-            "vtvlCode": "THPT-HT.05",
+            "vtvlCode": "",
             "productsPerYear": 4031,
             "minutesPerProduct": 5,
             "additionalHours": 0,
-            "computedProductHours": 335.92,
-            "totalHours": 335.92,
+            "computedProductHours": 0,
+            "totalHours": 0,
             "quantitySource": "Hồ sơ",
             "timeSource": "1/10/2025 - 30/9/2026",
             "basisStatus": "Kiểm đếm, ước lượng thực tế",
@@ -2647,9 +2953,9 @@ export const vtvlData = {
             "group": "",
             "standardMinutes": 0,
             "standardConfirmed": "",
-            "minutesUsed": 5,
-            "timeSourceUsed": "Ước lượng thực tế; 1/10/2025 - 30/9/2026",
-            "warning": "ĐẠT",
+            "minutesUsed": 0,
+            "timeSourceUsed": "",
+            "warning": "",
             "explanation": ""
           }
         },
@@ -2664,12 +2970,12 @@ export const vtvlData = {
           "source": "Đề án vị trí việc làm",
           "workload": {
             "jobCode": "LK-CV-24",
-            "vtvlCode": "THPT-HT.05",
+            "vtvlCode": "",
             "productsPerYear": 934,
             "minutesPerProduct": 2,
             "additionalHours": 0,
-            "computedProductHours": 31.13,
-            "totalHours": 31.13,
+            "computedProductHours": 0,
+            "totalHours": 0,
             "quantitySource": "Hồ sơ",
             "timeSource": "1/10/2025 - 30/9/2026",
             "basisStatus": "Kiểm đếm, ước lượng thực tế",
@@ -2678,9 +2984,9 @@ export const vtvlData = {
             "group": "",
             "standardMinutes": 0,
             "standardConfirmed": "",
-            "minutesUsed": 2,
-            "timeSourceUsed": "Ước lượng thực tế; 1/10/2025 - 30/9/2026",
-            "warning": "ĐẠT",
+            "minutesUsed": 0,
+            "timeSourceUsed": "",
+            "warning": "",
             "explanation": ""
           }
         },
@@ -2695,12 +3001,12 @@ export const vtvlData = {
           "source": "Đề án vị trí việc làm",
           "workload": {
             "jobCode": "LK-CV-25",
-            "vtvlCode": "THPT-HT.05",
+            "vtvlCode": "",
             "productsPerYear": 4031,
             "minutesPerProduct": 5,
             "additionalHours": 0,
-            "computedProductHours": 335.92,
-            "totalHours": 335.92,
+            "computedProductHours": 0,
+            "totalHours": 0,
             "quantitySource": "Hồ sơ",
             "timeSource": "1/10/2025 - 30/9/2026",
             "basisStatus": "Kiểm đếm, ước lượng thực tế",
@@ -2709,14 +3015,14 @@ export const vtvlData = {
             "group": "",
             "standardMinutes": 0,
             "standardConfirmed": "",
-            "minutesUsed": 5,
-            "timeSourceUsed": "Ước lượng thực tế; 1/10/2025 - 30/9/2026",
-            "warning": "ĐẠT",
+            "minutesUsed": 0,
+            "timeSourceUsed": "",
+            "warning": "",
             "explanation": ""
           }
         }
       ],
-      "totalWorkloadHours": 702.97,
+      "totalWorkloadHours": 0,
       "linkedTasks": [
         "LK-NV-10"
       ],
@@ -2732,16 +3038,16 @@ export const vtvlData = {
       "demand": {
         "code": "THPT-HT.05",
         "method": "PP2",
-        "b1Hours": 702.97,
-        "b2ImpactHours": 0,
-        "netHours": 702.97,
+        "b1Hours": 0,
+        "b2ImpactHours": -160.0,
+        "netHours": -160.0,
         "pp2StandardHours": 1904,
-        "pp2CalculatedStaff": 0.37,
+        "pp2CalculatedStaff": 0,
         "pp1Staff": 1,
         "neededStaff": 0,
         "sourceExplanation": "1",
         "status": "Nghị định 232/NĐ-CP",
-        "warning": "Tính thử",
+        "warning": "ĐẠT",
         "unqualifiedB1Rows": 0
       },
       "currentStaff": {
@@ -2754,7 +3060,7 @@ export const vtvlData = {
         "payrollUnit": "Sở GD&ĐT Cao Bằng",
         "source": "QĐ 1548/QĐ-SGD&ĐT",
         "status": "Đã kiểm chứng",
-        "warning": "Đạt"
+        "warning": ""
       },
       "plan2027": {
         "vtvlCode": "THPT-HT.05",
@@ -2766,9 +3072,9 @@ export const vtvlData = {
         "requestAdjustStaff": 0,
         "sourceExplanation": "Đề án vị trí việc làm",
         "status": "Đang xây dựng",
-        "warning": "#VALUE!",
-        "pp2RefStaff": 0.37,
-        "c3BaseStaff": 1
+        "warning": "",
+        "pp2RefStaff": 0,
+        "c3BaseStaff": 0
       }
     },
     {
@@ -2794,12 +3100,12 @@ export const vtvlData = {
           "source": "Đề án vị trí việc làm",
           "workload": {
             "jobCode": "LK-CV-26",
-            "vtvlCode": "THPT-HT.06",
+            "vtvlCode": "",
             "productsPerYear": 7,
             "minutesPerProduct": 120,
             "additionalHours": 0,
-            "computedProductHours": 14,
-            "totalHours": 14,
+            "computedProductHours": 0,
+            "totalHours": 0,
             "quantitySource": "Hồ sơ",
             "timeSource": "1/10/2025 - 30/9/2026",
             "basisStatus": "Kiểm đếm, ước lượng thực tế",
@@ -2808,14 +3114,14 @@ export const vtvlData = {
             "group": "",
             "standardMinutes": 0,
             "standardConfirmed": "",
-            "minutesUsed": 120,
-            "timeSourceUsed": "Ước lượng thực tế; 1/10/2025 - 30/9/2026",
-            "warning": "ĐẠT",
+            "minutesUsed": 0,
+            "timeSourceUsed": "",
+            "warning": "",
             "explanation": ""
           }
         }
       ],
-      "totalWorkloadHours": 14,
+      "totalWorkloadHours": 0,
       "linkedTasks": [
         "LK-NV-11"
       ],
@@ -2831,16 +3137,16 @@ export const vtvlData = {
       "demand": {
         "code": "THPT-HT.06",
         "method": "PP2+PP3",
-        "b1Hours": 14,
+        "b1Hours": 0,
         "b2ImpactHours": 0,
-        "netHours": 14,
+        "netHours": 0,
         "pp2StandardHours": 1904,
-        "pp2CalculatedStaff": 0.01,
+        "pp2CalculatedStaff": 0,
         "pp1Staff": 1,
         "neededStaff": 0,
         "sourceExplanation": "1",
         "status": "Nghị định 232/NĐ-CP",
-        "warning": "Tính thử",
+        "warning": "ĐẠT",
         "unqualifiedB1Rows": 0
       },
       "currentStaff": {
@@ -2853,7 +3159,7 @@ export const vtvlData = {
         "payrollUnit": "Sở GD&ĐT Cao Bằng",
         "source": "QĐ 1548/QĐ-SGD&ĐT",
         "status": "Đã kiểm chứng",
-        "warning": "Đạt"
+        "warning": ""
       },
       "plan2027": {
         "vtvlCode": "THPT-HT.06",
@@ -2865,9 +3171,9 @@ export const vtvlData = {
         "requestAdjustStaff": 0,
         "sourceExplanation": "Đề án vị trí việc làm",
         "status": "Đang xây dựng",
-        "warning": "#VALUE!",
-        "pp2RefStaff": 0.01,
-        "c3BaseStaff": 1
+        "warning": "",
+        "pp2RefStaff": 0,
+        "c3BaseStaff": 0
       }
     },
     {
@@ -2893,12 +3199,12 @@ export const vtvlData = {
           "source": "Đề án vị trí việc làm",
           "workload": {
             "jobCode": "LK-CV-27",
-            "vtvlCode": "THPT-HT.07",
+            "vtvlCode": "",
             "productsPerYear": 443,
             "minutesPerProduct": 5,
             "additionalHours": 2215,
-            "computedProductHours": 36.92,
-            "totalHours": 2251.92,
+            "computedProductHours": 0,
+            "totalHours": 0,
             "quantitySource": "Hồ sơ",
             "timeSource": "1/10/2025 - 30/9/2026",
             "basisStatus": "Kiểm đếm, ước lượng thực tế",
@@ -2907,9 +3213,9 @@ export const vtvlData = {
             "group": "",
             "standardMinutes": 0,
             "standardConfirmed": "",
-            "minutesUsed": 5,
-            "timeSourceUsed": "Ước lượng thực tế; 1/10/2025 - 30/9/2026",
-            "warning": "ĐẠT",
+            "minutesUsed": 0,
+            "timeSourceUsed": "",
+            "warning": "",
             "explanation": ""
           }
         },
@@ -2924,12 +3230,12 @@ export const vtvlData = {
           "source": "Đề án vị trí việc làm",
           "workload": {
             "jobCode": "LK-CV-28",
-            "vtvlCode": "THPT-HT.07",
+            "vtvlCode": "",
             "productsPerYear": 2,
             "minutesPerProduct": 240,
             "additionalHours": 0,
-            "computedProductHours": 8,
-            "totalHours": 8,
+            "computedProductHours": 0,
+            "totalHours": 0,
             "quantitySource": "Hồ sơ",
             "timeSource": "1/10/2025 - 30/9/2026",
             "basisStatus": "Kiểm đếm, ước lượng thực tế",
@@ -2938,9 +3244,9 @@ export const vtvlData = {
             "group": "",
             "standardMinutes": 0,
             "standardConfirmed": "",
-            "minutesUsed": 240,
-            "timeSourceUsed": "Ước lượng thực tế; 1/10/2025 - 30/9/2026",
-            "warning": "ĐẠT",
+            "minutesUsed": 0,
+            "timeSourceUsed": "",
+            "warning": "",
             "explanation": ""
           }
         },
@@ -2955,12 +3261,12 @@ export const vtvlData = {
           "source": "Đề án vị trí việc làm",
           "workload": {
             "jobCode": "LK-CV-29",
-            "vtvlCode": "THPT-HT.07",
+            "vtvlCode": "",
             "productsPerYear": 1,
             "minutesPerProduct": 405,
             "additionalHours": 60,
-            "computedProductHours": 6.75,
-            "totalHours": 66.75,
+            "computedProductHours": 0,
+            "totalHours": 0,
             "quantitySource": "Hồ sơ",
             "timeSource": "1/10/2025 - 30/9/2026",
             "basisStatus": "Kiểm đếm, ước lượng thực tế",
@@ -2969,14 +3275,14 @@ export const vtvlData = {
             "group": "",
             "standardMinutes": 0,
             "standardConfirmed": "",
-            "minutesUsed": 405,
-            "timeSourceUsed": "Ước lượng thực tế; 1/10/2025 - 30/9/2026",
-            "warning": "ĐẠT",
+            "minutesUsed": 0,
+            "timeSourceUsed": "",
+            "warning": "",
             "explanation": ""
           }
         }
       ],
-      "totalWorkloadHours": 2326.67,
+      "totalWorkloadHours": 0,
       "linkedTasks": [
         "LK-NV-12"
       ],
@@ -2992,11 +3298,11 @@ export const vtvlData = {
       "demand": {
         "code": "THPT-HT.07",
         "method": "PP1",
-        "b1Hours": 2326.67,
-        "b2ImpactHours": 0,
-        "netHours": 2326.67,
+        "b1Hours": 0,
+        "b2ImpactHours": -20.0,
+        "netHours": -20.0,
         "pp2StandardHours": 1904,
-        "pp2CalculatedStaff": 1.22,
+        "pp2CalculatedStaff": -0.01,
         "pp1Staff": 1,
         "neededStaff": 1,
         "sourceExplanation": "Nghị định 232/NĐ-CP",
@@ -3014,7 +3320,7 @@ export const vtvlData = {
         "payrollUnit": "Sở GD&ĐT Cao Bằng",
         "source": "QĐ 1548/QĐ-SGD&ĐT",
         "status": "Đã kiểm chứng",
-        "warning": "Đạt"
+        "warning": ""
       },
       "plan2027": {
         "vtvlCode": "THPT-HT.07",
@@ -3026,7 +3332,7 @@ export const vtvlData = {
         "requestAdjustStaff": 0,
         "sourceExplanation": "Đề án vị trí việc làm",
         "status": "Đang xây dựng",
-        "warning": "#VALUE!",
+        "warning": "",
         "pp2RefStaff": 0,
         "c3BaseStaff": 0
       }
@@ -3043,7 +3349,7 @@ export const vtvlData = {
       "payrollUnit": "Sở GD&ĐT Cao Bằng",
       "source": "QĐ 1548/QĐ-SGD&ĐT",
       "status": "Đã kiểm chứng",
-      "warning": "Đạt"
+      "warning": ""
     },
     {
       "staffCode": "LK-NL-002",
@@ -3055,7 +3361,7 @@ export const vtvlData = {
       "payrollUnit": "Sở GD&ĐT Cao Bằng",
       "source": "QĐ 1548/QĐ-SGD&ĐT",
       "status": "Đã kiểm chứng",
-      "warning": "Đạt"
+      "warning": ""
     },
     {
       "staffCode": "LK-NL-003",
@@ -3067,7 +3373,7 @@ export const vtvlData = {
       "payrollUnit": "Sở GD&ĐT Cao Bằng",
       "source": "QĐ 1548/QĐ-SGD&ĐT",
       "status": "Đã kiểm chứng",
-      "warning": "Đạt"
+      "warning": ""
     },
     {
       "staffCode": "LK-NL-004",
@@ -3079,7 +3385,7 @@ export const vtvlData = {
       "payrollUnit": "Sở GD&ĐT Cao Bằng",
       "source": "QĐ 1548/QĐ-SGD&ĐT",
       "status": "Đã kiểm chứng",
-      "warning": "Đạt"
+      "warning": ""
     },
     {
       "staffCode": "LK-NL-005",
@@ -3091,7 +3397,7 @@ export const vtvlData = {
       "payrollUnit": "Sở GD&ĐT Cao Bằng",
       "source": "QĐ 1548/QĐ-SGD&ĐT",
       "status": "Đã kiểm chứng",
-      "warning": "Đạt"
+      "warning": ""
     },
     {
       "staffCode": "LK-NL-006",
@@ -3103,7 +3409,7 @@ export const vtvlData = {
       "payrollUnit": "Sở GD&ĐT Cao Bằng",
       "source": "QĐ 1548/QĐ-SGD&ĐT",
       "status": "Đã kiểm chứng",
-      "warning": "Đạt"
+      "warning": ""
     },
     {
       "staffCode": "LK-NL-007",
@@ -3115,7 +3421,7 @@ export const vtvlData = {
       "payrollUnit": "Sở GD&ĐT Cao Bằng",
       "source": "QĐ 1548/QĐ-SGD&ĐT",
       "status": "Đã kiểm chứng",
-      "warning": "Đạt"
+      "warning": ""
     },
     {
       "staffCode": "LK-NL-008",
@@ -3127,7 +3433,7 @@ export const vtvlData = {
       "payrollUnit": "Sở GD&ĐT Cao Bằng",
       "source": "QĐ 1548/QĐ-SGD&ĐT",
       "status": "Đã kiểm chứng",
-      "warning": "Đạt"
+      "warning": ""
     },
     {
       "staffCode": "LK-NL-009",
@@ -3139,7 +3445,7 @@ export const vtvlData = {
       "payrollUnit": "Sở GD&ĐT Cao Bằng",
       "source": "QĐ 1548/QĐ-SGD&ĐT",
       "status": "Đã kiểm chứng",
-      "warning": "Đạt"
+      "warning": ""
     },
     {
       "staffCode": "LK-NL-010",
@@ -3151,7 +3457,7 @@ export const vtvlData = {
       "payrollUnit": "Sở GD&ĐT Cao Bằng",
       "source": "QĐ 1548/QĐ-SGD&ĐT",
       "status": "Đã kiểm chứng",
-      "warning": "Đạt"
+      "warning": ""
     },
     {
       "staffCode": "LK-NL-011",
@@ -3163,7 +3469,7 @@ export const vtvlData = {
       "payrollUnit": "Sở GD&ĐT Cao Bằng",
       "source": "QĐ 1548/QĐ-SGD&ĐT",
       "status": "Đã kiểm chứng",
-      "warning": "Đạt"
+      "warning": ""
     },
     {
       "staffCode": "LK-NL-012",
@@ -3175,7 +3481,7 @@ export const vtvlData = {
       "payrollUnit": "Sở GD&ĐT Cao Bằng",
       "source": "QĐ 1548/QĐ-SGD&ĐT",
       "status": "Đã kiểm chứng",
-      "warning": "Đạt"
+      "warning": ""
     }
   ],
   "staffingPlans": [
@@ -3189,9 +3495,9 @@ export const vtvlData = {
       "requestAdjustStaff": 0,
       "sourceExplanation": "Đề án vị trí việc làm",
       "status": "Đang xây dựng",
-      "warning": "C3 CHƯA ĐƯỢC XÁC NHẬN",
+      "warning": "",
       "pp2RefStaff": 0,
-      "c3BaseStaff": 1
+      "c3BaseStaff": 0
     },
     {
       "vtvlCode": "THPT-LĐQL.02",
@@ -3203,9 +3509,9 @@ export const vtvlData = {
       "requestAdjustStaff": 0,
       "sourceExplanation": "Đề án vị trí việc làm",
       "status": "Đang xây dựng",
-      "warning": "#VALUE!",
+      "warning": "",
       "pp2RefStaff": 0,
-      "c3BaseStaff": 2
+      "c3BaseStaff": 0
     },
     {
       "vtvlCode": "THPT-LĐQL.03",
@@ -3217,9 +3523,9 @@ export const vtvlData = {
       "requestAdjustStaff": 0,
       "sourceExplanation": "Đề án vị trí việc làm",
       "status": "Đang xây dựng",
-      "warning": "#VALUE!",
+      "warning": "",
       "pp2RefStaff": 0,
-      "c3BaseStaff": 2
+      "c3BaseStaff": 0
     },
     {
       "vtvlCode": "THPT-LĐQL.04",
@@ -3231,7 +3537,7 @@ export const vtvlData = {
       "requestAdjustStaff": 0,
       "sourceExplanation": "Đề án vị trí việc làm",
       "status": "Đang xây dựng",
-      "warning": "#VALUE!",
+      "warning": "",
       "pp2RefStaff": 0,
       "c3BaseStaff": 2
     },
@@ -3245,7 +3551,7 @@ export const vtvlData = {
       "requestAdjustStaff": 0,
       "sourceExplanation": "Đề án vị trí việc làm",
       "status": "Đang xây dựng",
-      "warning": "#VALUE!",
+      "warning": "",
       "pp2RefStaff": 0,
       "c3BaseStaff": 17
     },
@@ -3259,9 +3565,9 @@ export const vtvlData = {
       "requestAdjustStaff": 0,
       "sourceExplanation": "Đề án vị trí việc làm",
       "status": "Đang xây dựng",
-      "warning": "#VALUE!",
+      "warning": "",
       "pp2RefStaff": 0,
-      "c3BaseStaff": 1
+      "c3BaseStaff": 0
     },
     {
       "vtvlCode": "THPT-HT.02",
@@ -3273,9 +3579,9 @@ export const vtvlData = {
       "requestAdjustStaff": 0,
       "sourceExplanation": "Đề án vị trí việc làm",
       "status": "Đang xây dựng",
-      "warning": "#VALUE!",
-      "pp2RefStaff": 0.31,
-      "c3BaseStaff": 1
+      "warning": "",
+      "pp2RefStaff": 0,
+      "c3BaseStaff": 0
     },
     {
       "vtvlCode": "THPT-HT.03",
@@ -3287,9 +3593,9 @@ export const vtvlData = {
       "requestAdjustStaff": 0,
       "sourceExplanation": "Đề án vị trí việc làm",
       "status": "Đang xây dựng",
-      "warning": "#VALUE!",
-      "pp2RefStaff": 0.08,
-      "c3BaseStaff": 1
+      "warning": "",
+      "pp2RefStaff": 0,
+      "c3BaseStaff": 0
     },
     {
       "vtvlCode": "THPT-HT.04",
@@ -3301,9 +3607,9 @@ export const vtvlData = {
       "requestAdjustStaff": 0,
       "sourceExplanation": "Đề án vị trí việc làm",
       "status": "Đang xây dựng",
-      "warning": "#VALUE!",
-      "pp2RefStaff": 1.55,
-      "c3BaseStaff": 1
+      "warning": "",
+      "pp2RefStaff": 0,
+      "c3BaseStaff": 0
     },
     {
       "vtvlCode": "THPT-HT.05",
@@ -3315,9 +3621,9 @@ export const vtvlData = {
       "requestAdjustStaff": 0,
       "sourceExplanation": "Đề án vị trí việc làm",
       "status": "Đang xây dựng",
-      "warning": "#VALUE!",
-      "pp2RefStaff": 0.37,
-      "c3BaseStaff": 1
+      "warning": "",
+      "pp2RefStaff": 0,
+      "c3BaseStaff": 0
     },
     {
       "vtvlCode": "THPT-HT.06",
@@ -3329,9 +3635,9 @@ export const vtvlData = {
       "requestAdjustStaff": 0,
       "sourceExplanation": "Đề án vị trí việc làm",
       "status": "Đang xây dựng",
-      "warning": "#VALUE!",
-      "pp2RefStaff": 0.01,
-      "c3BaseStaff": 1
+      "warning": "",
+      "pp2RefStaff": 0,
+      "c3BaseStaff": 0
     },
     {
       "vtvlCode": "THPT-HT.07",
@@ -3343,7 +3649,7 @@ export const vtvlData = {
       "requestAdjustStaff": 0,
       "sourceExplanation": "Đề án vị trí việc làm",
       "status": "Đang xây dựng",
-      "warning": "#VALUE!",
+      "warning": "",
       "pp2RefStaff": 0,
       "c3BaseStaff": 0
     }
@@ -3532,7 +3838,7 @@ export const vtvlData = {
     {
       "stt": "",
       "sheetName": "Mức tham chiếu chung (giờ/người/năm)",
-      "content": "1904",
+      "content": "",
       "note": "Nhóm làm việc 40 giờ/tuần, 05 ngày/tuần, phép cơ bản 12 ngày"
     },
     {

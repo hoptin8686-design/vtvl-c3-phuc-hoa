@@ -280,3 +280,4 @@ export default function StaffingTab({ onSelectPosition }) {
     </div>
   );
 }
+

@@ -172,3 +172,4 @@ export default function WorkloadsTab({ searchQuery, onSelectPosition }) {
     </div>
   );
 }
+

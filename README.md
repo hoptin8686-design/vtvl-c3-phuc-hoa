@@ -6,7 +6,7 @@
 
 ## 📌 Tổng Quan Hệ Thống
 
-Dữ liệu được chuẩn hóa và trích xuất từ file gốc: `30.10.2026 C3 Phục Hòa_Bo bieu VTVL (kèm HD 07).xlsx`.
+Dữ liệu được chuẩn hóa và trích xuất trực tiếp từ file gốc trên Desktop: `30.10.2026 C3 Phục Hòa_Bo bieu VTVL (kèm HD 07).xlsx`.
 
 - **Cơ quan chủ quản:** Sở Giáo dục và Đào tạo Cao Bằng
 - **Đơn vị thực hiện:** Trường THPT Phục Hòa
@@ -16,6 +16,7 @@ Dữ liệu được chuẩn hóa và trích xuất từ file gốc: `30.10.2026
   - Quyết định số 1548/QĐ-SGD&ĐT của Sở GD&ĐT tỉnh Cao Bằng
 - **Quỹ giờ chuẩn PP2:** `1.904 giờ/người/năm` (Chế độ làm việc 40 giờ/tuần)
 - **Phương án nhân sự 2027:** `35 biên chế`
+- **Mục 4 & 5 (Biểu B2):** Đã nhập 10 công đoạn chuyển đổi số, tiết kiệm `-19.089,29 giờ/năm`
 
 ---
 
@@ -25,6 +26,7 @@ Dữ liệu được chuẩn hóa và trích xuất từ file gốc: `30.10.2026
    - Thống kê 14 Nhiệm vụ, 33 Công việc, 12 Vị trí việc làm, 35 Biên chế được giao.
    - Sơ đồ cơ cấu tổ chức phân cấp trực quan của nhà trường (Ban Giám hiệu, Khối Chuyên môn, Khối Văn phòng - Hỗ trợ).
    - Biểu đồ phân bổ nhân lực theo 3 nhóm (Lãnh đạo, Chuyên môn, Hỗ trợ).
+   - Chỉ số tác động chuyển đổi số giảm thời gian lao động.
 
 2. **📋 Biểu C1 & C2 - Danh Mục Vị Trí Việc Làm & Bản Mô Tả Năng Lực:**
    - 12 Vị trí việc làm chuẩn hóa (Hiệu trưởng, Phó Hiệu trưởng, Tổ trưởng/Tổ phó CM, Giáo viên THPT, Giáo vụ, Thiết bị thí nghiệm, Y tế, Kế toán, Văn thư, Thư viện, Tư vấn học sinh).
@@ -39,23 +41,28 @@ Dữ liệu được chuẩn hóa và trích xuất từ file gốc: `30.10.2026
 5. **⏱️ Biểu B1 - Định Mức & Khối Lượng Thời Gian (33 Dòng):**
    - Số sản phẩm/năm, phút/SP đo thực tế, giờ sản phẩm, giờ bổ sung và tổng giờ lao động chuẩn. Cảnh báo dữ liệu 100% ĐẠT.
 
-6. **⚖️ Biểu C3 - Xác Định Nhu Cầu Nhân Lực & Công Cụ Mô Phỏng:**
-   - Đối chiếu phương pháp PP1 (Quy định), PP2 (Giờ ròng ÷ 1.904h), PP3 (Thực tế).
+6. **⚡ Mục 4 & 5 - Tác Động Số Hóa & Cải Tiến Quy Trình (Biểu B2):**
+   - **Mục 4 (B2_CT_TacDong):** Chi tiết 10 công đoạn cải tiến số hóa (Hệ thống vnEdu, iOffice, MISA Mimosa, DVC Kho bạc, CSDL ngành) với phút trước và phút sau cải tiến.
+   - **Mục 5 (B2_ThayDoi):** Tổng hợp tự động giờ giảm số hóa, giảm thuê dịch vụ và tác động ròng sang Biểu C3.
+
+7. **⚖️ Biểu C3 - Xác Định Nhu Cầu Nhân Lực & Công Cụ Mô Phỏng:**
+   - Đối chiếu phương pháp PP1 (Quy định), PP2 (Giờ ròng $\div$ 1.904h), PP3 (Thực tế).
+   - Tích hợp số giờ tác động B2 vào giờ ròng.
    - **Interactive Demand Simulator:** Cho phép điều chỉnh số giờ thực tế để tính toán biên chế quy đổi theo công thức chuẩn.
 
-7. **👥 Biểu D1 & D2 - Hiện Trạng & Phương Án Bố Trí Nhân Lực 2027:**
-   - Biểu D1: 12 mã nguồn lực (LK-NL-001 đến LK-NL-012) thuộc Sở GD&ĐT Cao Bằng.
+8. **👥 Biểu D1 & D2 - Hiện Trạng & Phương Án Bố Trí Nhân Lực 2027:**
+   - Biểu D1: 12 mã nguồn lực (`LK-NL-001` đến `LK-NL-012`) thuộc Sở GD&ĐT Cao Bằng.
    - Biểu D2: Phương án phân bổ chi tiết 35 biên chế cho năm 2027.
 
-8. **📖 Cẩm Nang Tra Cứu & Hướng Dẫn Kèm Theo HD 07:**
+9. **📖 Cẩm Nang Tra Cứu & Hướng Dẫn Kèm Theo HD 07:**
    - Hướng dẫn sử dụng bộ biểu (`HUONG_DAN` - 41 mục).
    - Hướng dẫn điền từng cột của các biểu (`HD_DIEN_BIEU`).
    - Quy tắc đặt mã (`QUY_TAC_MA`).
    - Quy trình 7 bước thao tác nhanh (`THAO_TAC_NHANH`).
    - Tham số dùng chung (`DM_THAM_SO`).
 
-9. **📥 Xuất File Excel Trọn Bộ:**
-   - Xuất dữ liệu sạch và chính xác toàn bộ 10 sheets thành file `.xlsx` trực tiếp trên trình duyệt.
+10. **📥 Xuất File Excel Trọn Bộ:**
+    - Xuất dữ liệu sạch và chính xác toàn bộ 10 sheets thành file `.xlsx` trực tiếp trên trình duyệt.
 
 ---
 

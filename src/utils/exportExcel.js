@@ -62,7 +62,45 @@ export function exportFullExcel() {
   );
   XLSX.utils.book_append_sheet(wb, ws_b1, '3. B1_KhoiLuong');
 
-  // 5. Sheet 6. C1_VTVL
+  // 5. Sheet 4. B2_CT_TacDong (MỤC 4)
+  const ws_b2ct = XLSX.utils.json_to_sheet(
+    (vtvlData.b2ImpactDetails || []).map(d => ({
+      'Mã công việc': d.jobCode,
+      'Mã VTVL': d.vtvlCode,
+      'Loại tác động': d.impactType,
+      'Công đoạn': d.stage,
+      'SP áp dụng': d.spApplied,
+      'Phút trước': d.minutesBefore,
+      'Phút sau': d.minutesAfter,
+      'Giờ giảm trực tiếp': d.directHoursReduced,
+      'Giờ việc mới': d.newHours,
+      'Nguồn/bằng chứng': d.source,
+      'Kỳ': d.period,
+      'Cơ sở B1': d.basisB1,
+      'Trạng thái': d.status,
+      'Kiểm tra': d.check,
+      'Đối chiếu trùng/phạm vi': d.verified
+    }))
+  );
+  XLSX.utils.book_append_sheet(wb, ws_b2ct, '4. B2_CT_TacDong');
+
+  // 6. Sheet 5. B2_ThayDoi (MỤC 5)
+  const ws_b2 = XLSX.utils.json_to_sheet(
+    (vtvlData.b2Summary || []).map(s => ({
+      'Mã công việc': s.jobCode,
+      'Mã VTVL': s.vtvlCode,
+      'Giờ giảm số hóa': s.digitalHoursReduced,
+      'Giờ giảm thuê/TCh/XHH': s.outsourceHoursReduced,
+      'Giờ việc mới': s.newHours,
+      'Giờ tác động ròng': s.netImpactHours,
+      'Trạng thái': s.status,
+      'Số dòng chi tiết': s.detailCount,
+      'Cảnh báo': s.warning
+    }))
+  );
+  XLSX.utils.book_append_sheet(wb, ws_b2, '5. B2_ThayDoi');
+
+  // 7. Sheet 6. C1_VTVL
   const ws_c1 = XLSX.utils.json_to_sheet(
     vtvlData.positions.map(p => ({
       'Mã VTVL': p.code,
@@ -79,7 +117,7 @@ export function exportFullExcel() {
   );
   XLSX.utils.book_append_sheet(wb, ws_c1, '6. C1_VTVL');
 
-  // 6. Sheet 7. C2_NangLuc
+  // 8. Sheet 7. C2_NangLuc
   const ws_c2 = XLSX.utils.json_to_sheet(
     vtvlData.positions.map(p => ({
       'Mã VTVL': p.code,
@@ -93,13 +131,14 @@ export function exportFullExcel() {
   );
   XLSX.utils.book_append_sheet(wb, ws_c2, '7. C2_NangLuc');
 
-  // 7. Sheet 8. C3_NhuCau
+  // 9. Sheet 8. C3_NhuCau
   const ws_c3 = XLSX.utils.json_to_sheet(
     vtvlData.positions.map(p => ({
       'Mã VTVL': p.code,
       'Tên VTVL': p.name,
       'Phương pháp xác định': p.demand?.method || '',
       'Tổng giờ B1': p.demand?.b1Hours || 0,
+      'Giờ tác động B2': p.demand?.b2ImpactHours || 0,
       'Giờ ròng': p.demand?.netHours || 0,
       'Quỹ giờ PP2': p.demand?.pp2StandardHours || 1904,
       'Người quy đổi PP2': p.demand?.pp2CalculatedStaff || 0,
@@ -111,7 +150,7 @@ export function exportFullExcel() {
   );
   XLSX.utils.book_append_sheet(wb, ws_c3, '8. C3_NhuCau');
 
-  // 8. Sheet 9. D1_NhanLuc
+  // 10. Sheet 9. D1_NhanLuc
   const ws_d1 = XLSX.utils.json_to_sheet(
     vtvlData.staffList.map(s => ({
       'Mã nguồn lực': s.staffCode,
@@ -128,7 +167,7 @@ export function exportFullExcel() {
   );
   XLSX.utils.book_append_sheet(wb, ws_d1, '9. D1_NhanLuc');
 
-  // 9. Sheet 10. D2_PhuongAn
+  // 11. Sheet 10. D2_PhuongAn
   const ws_d2 = XLSX.utils.json_to_sheet(
     vtvlData.staffingPlans.map(pl => ({
       'Mã VTVL': pl.vtvlCode,

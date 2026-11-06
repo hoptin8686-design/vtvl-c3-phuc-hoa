@@ -12,7 +12,9 @@ import {
   ShieldCheck, 
   ChevronRight,
   School,
-  UserCheck
+  UserCheck,
+  TrendingDown,
+  Cpu
 } from 'lucide-react';
 import { vtvlData } from '../data/vtvlData';
 
@@ -69,7 +71,7 @@ export default function Dashboard({ onSelectPosition, setActiveTab }) {
             Trường Trung Học Phổ Thông Phục Hòa
           </h2>
           <p className="text-slate-300 text-sm sm:text-base leading-relaxed">
-            Hệ thống quản lý, theo dõi và tra cứu toàn diện <strong>Bộ biểu Vị trí việc làm (VTVL)</strong> theo Hướng dẫn 07 và Nghị định số 232/NĐ-CP của Chính phủ. Đã hoàn thành chuẩn hóa 14 nhiệm vụ, 33 công việc phân rã, 12 vị trí việc làm và phương án phân bổ <strong>35 biên chế</strong>.
+            Hệ thống quản lý, theo dõi và tra cứu toàn diện <strong>Bộ biểu Vị trí việc làm (VTVL)</strong> theo Hướng dẫn 07 và Nghị định số 232/NĐ-CP của Chính phủ. Đã hoàn thành chuẩn hóa 14 nhiệm vụ, 33 công việc phân rã, 12 vị trí việc làm, <strong>10 công đoạn chuyển đổi số (Mục 4 & 5)</strong> và phương án phân bổ <strong>35 biên chế</strong>.
           </p>
 
           <div className="pt-2 flex flex-wrap gap-2 text-xs">
@@ -79,8 +81,8 @@ export default function Dashboard({ onSelectPosition, setActiveTab }) {
             <span className="px-2.5 py-1 rounded-md bg-white/10 text-slate-200 border border-white/10">
               Định mức PP2: 1.904 giờ/người/năm
             </span>
-            <span className="px-2.5 py-1 rounded-md bg-white/10 text-slate-200 border border-white/10">
-              Hiệu lực: 30/10/2026
+            <span className="px-2.5 py-1 rounded-md bg-cyan-500/20 text-cyan-200 border border-cyan-400/30 font-semibold">
+              Tiết kiệm số hóa (B2): -{summary.totalHoursReducedB2?.toLocaleString() || '19,089'} giờ
             </span>
           </div>
         </div>
@@ -89,94 +91,118 @@ export default function Dashboard({ onSelectPosition, setActiveTab }) {
         <div className="absolute -right-12 -bottom-12 w-80 h-80 rounded-full bg-blue-500/10 blur-3xl pointer-events-none" />
       </div>
 
-      {/* 4 Main KPI Cards */}
-      <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
+      {/* 5 Main KPI Cards */}
+      <div className="grid grid-cols-2 lg:grid-cols-5 gap-3 sm:gap-4">
         
         {/* Card 1: Vị trí việc làm */}
         <div 
           onClick={() => setActiveTab('positions')}
-          className="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm hover:shadow-md hover:border-blue-300 transition-all cursor-pointer group"
+          className="bg-white p-4 sm:p-5 rounded-2xl border border-slate-200 shadow-sm hover:shadow-md hover:border-blue-300 transition-all cursor-pointer group"
         >
           <div className="flex items-center justify-between">
             <span className="text-xs font-semibold text-slate-500 uppercase tracking-wider">
-              Vị trí việc làm (C1)
+              VTVL (C1)
             </span>
-            <div className="w-9 h-9 rounded-xl bg-blue-50 text-blue-600 flex items-center justify-center group-hover:bg-blue-600 group-hover:text-white transition-colors">
-              <Briefcase className="w-5 h-5" />
+            <div className="w-8 h-8 sm:w-9 sm:h-9 rounded-xl bg-blue-50 text-blue-600 flex items-center justify-center group-hover:bg-blue-600 group-hover:text-white transition-colors">
+              <Briefcase className="w-4 h-4 sm:w-5 sm:h-5" />
             </div>
           </div>
-          <div className="mt-3 flex items-baseline gap-2">
-            <span className="text-3xl font-extrabold text-slate-900">{summary.totalPositions}</span>
-            <span className="text-xs font-medium text-blue-600">vị trí chuẩn</span>
+          <div className="mt-2.5 sm:mt-3 flex items-baseline gap-1.5">
+            <span className="text-2xl sm:text-3xl font-extrabold text-slate-900">{summary.totalPositions}</span>
+            <span className="text-[11px] font-medium text-blue-600">vị trí</span>
           </div>
-          <p className="mt-1 text-xs text-slate-500">
-            4 Lãnh đạo, 1 CMNV, 7 Hỗ trợ
+          <p className="mt-1 text-[11px] text-slate-500">
+            4 LĐQL, 1 CMNV, 7 Hỗ trợ
           </p>
         </div>
 
         {/* Card 2: Biên chế phương án 2027 */}
         <div 
           onClick={() => setActiveTab('staffing')}
-          className="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm hover:shadow-md hover:border-emerald-300 transition-all cursor-pointer group"
+          className="bg-white p-4 sm:p-5 rounded-2xl border border-slate-200 shadow-sm hover:shadow-md hover:border-emerald-300 transition-all cursor-pointer group"
         >
           <div className="flex items-center justify-between">
             <span className="text-xs font-semibold text-slate-500 uppercase tracking-wider">
-              Biên chế 2027 (D2)
+              Biên chế (D2)
             </span>
-            <div className="w-9 h-9 rounded-xl bg-emerald-50 text-emerald-600 flex items-center justify-center group-hover:bg-emerald-600 group-hover:text-white transition-colors">
-              <Users className="w-5 h-5" />
+            <div className="w-8 h-8 sm:w-9 sm:h-9 rounded-xl bg-emerald-50 text-emerald-600 flex items-center justify-center group-hover:bg-emerald-600 group-hover:text-white transition-colors">
+              <Users className="w-4 h-4 sm:w-5 sm:h-5" />
             </div>
           </div>
-          <div className="mt-3 flex items-baseline gap-2">
-            <span className="text-3xl font-extrabold text-slate-900">{summary.totalAssignedStaff2027}</span>
-            <span className="text-xs font-medium text-emerald-600">người được giao</span>
+          <div className="mt-2.5 sm:mt-3 flex items-baseline gap-1.5">
+            <span className="text-2xl sm:text-3xl font-extrabold text-slate-900">{summary.totalAssignedStaff2027}</span>
+            <span className="text-[11px] font-medium text-emerald-600">người</span>
           </div>
-          <p className="mt-1 text-xs text-slate-500">
-            Nhu cầu cần bố trí: {summary.totalNeededStaff} người
+          <p className="mt-1 text-[11px] text-slate-500">
+            Được giao theo QĐ 1548
           </p>
         </div>
 
-        {/* Card 3: Nhiệm vụ */}
+        {/* Card 3: Công việc phân rã */}
+        <div 
+          onClick={() => setActiveTab('jobs')}
+          className="bg-white p-4 sm:p-5 rounded-2xl border border-slate-200 shadow-sm hover:shadow-md hover:border-amber-300 transition-all cursor-pointer group"
+        >
+          <div className="flex items-center justify-between">
+            <span className="text-xs font-semibold text-slate-500 uppercase tracking-wider">
+              Công việc (A2)
+            </span>
+            <div className="w-8 h-8 sm:w-9 sm:h-9 rounded-xl bg-amber-50 text-amber-600 flex items-center justify-center group-hover:bg-amber-600 group-hover:text-white transition-colors">
+              <Clock className="w-4 h-4 sm:w-5 sm:h-5" />
+            </div>
+          </div>
+          <div className="mt-2.5 sm:mt-3 flex items-baseline gap-1.5">
+            <span className="text-2xl sm:text-3xl font-extrabold text-slate-900">{summary.totalJobs}</span>
+            <span className="text-[11px] font-medium text-amber-600">việc</span>
+          </div>
+          <p className="mt-1 text-[11px] text-slate-500">
+            Định mức giờ đo lường chuẩn
+          </p>
+        </div>
+
+        {/* Card 4: Tác động số hóa (MỤC 4 & 5) */}
+        <div 
+          onClick={() => setActiveTab('impact')}
+          className="bg-white p-4 sm:p-5 rounded-2xl border border-cyan-200 shadow-sm hover:shadow-md hover:border-cyan-400 transition-all cursor-pointer group col-span-2 sm:col-span-1"
+        >
+          <div className="flex items-center justify-between">
+            <span className="text-xs font-semibold text-cyan-800 uppercase tracking-wider">
+              Số hóa (B2)
+            </span>
+            <div className="w-8 h-8 sm:w-9 sm:h-9 rounded-xl bg-cyan-50 text-cyan-600 flex items-center justify-center group-hover:bg-cyan-600 group-hover:text-white transition-colors">
+              <TrendingDown className="w-4 h-4 sm:w-5 sm:h-5" />
+            </div>
+          </div>
+          <div className="mt-2.5 sm:mt-3 flex items-baseline gap-1.5">
+            <span className="text-xl sm:text-2xl font-extrabold text-cyan-900 font-mono">
+              -{Math.round(summary.totalHoursReducedB2 / 1000)}k
+            </span>
+            <span className="text-[11px] font-medium text-cyan-600">giờ ròng</span>
+          </div>
+          <p className="mt-1 text-[11px] text-cyan-700 font-semibold flex items-center gap-1">
+            Mục 4 & 5 đã nhập <ChevronRight className="w-3 h-3" />
+          </p>
+        </div>
+
+        {/* Card 5: Nhiệm vụ */}
         <div 
           onClick={() => setActiveTab('tasks')}
-          className="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm hover:shadow-md hover:border-purple-300 transition-all cursor-pointer group"
+          className="bg-white p-4 sm:p-5 rounded-2xl border border-slate-200 shadow-sm hover:shadow-md hover:border-purple-300 transition-all cursor-pointer group col-span-2 sm:col-span-1"
         >
           <div className="flex items-center justify-between">
             <span className="text-xs font-semibold text-slate-500 uppercase tracking-wider">
               Nhiệm vụ (A1)
             </span>
-            <div className="w-9 h-9 rounded-xl bg-purple-50 text-purple-600 flex items-center justify-center group-hover:bg-purple-600 group-hover:text-white transition-colors">
-              <ListTodo className="w-5 h-5" />
+            <div className="w-8 h-8 sm:w-9 sm:h-9 rounded-xl bg-purple-50 text-purple-600 flex items-center justify-center group-hover:bg-purple-600 group-hover:text-white transition-colors">
+              <ListTodo className="w-4 h-4 sm:w-5 sm:h-5" />
             </div>
           </div>
-          <div className="mt-3 flex items-baseline gap-2">
-            <span className="text-3xl font-extrabold text-slate-900">{summary.totalTasks}</span>
-            <span className="text-xs font-medium text-purple-600">nhiệm vụ lớn</span>
+          <div className="mt-2.5 sm:mt-3 flex items-baseline gap-1.5">
+            <span className="text-2xl sm:text-3xl font-extrabold text-slate-900">{summary.totalTasks}</span>
+            <span className="text-[11px] font-medium text-purple-600">nhiệm vụ</span>
           </div>
-          <p className="mt-1 text-xs text-slate-500">
-            Theo đề án VTVL Nghị định 232
-          </p>
-        </div>
-
-        {/* Card 4: Công việc phân rã */}
-        <div 
-          onClick={() => setActiveTab('jobs')}
-          className="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm hover:shadow-md hover:border-amber-300 transition-all cursor-pointer group"
-        >
-          <div className="flex items-center justify-between">
-            <span className="text-xs font-semibold text-slate-500 uppercase tracking-wider">
-              Công việc (A2 & B1)
-            </span>
-            <div className="w-9 h-9 rounded-xl bg-amber-50 text-amber-600 flex items-center justify-center group-hover:bg-amber-600 group-hover:text-white transition-colors">
-              <Clock className="w-5 h-5" />
-            </div>
-          </div>
-          <div className="mt-3 flex items-baseline gap-2">
-            <span className="text-3xl font-extrabold text-slate-900">{summary.totalJobs}</span>
-            <span className="text-xs font-medium text-amber-600">công việc</span>
-          </div>
-          <p className="mt-1 text-xs text-slate-500">
-            100% đạt chuẩn khối lượng đo lường
+          <p className="mt-1 text-[11px] text-slate-500">
+            Kế thừa đề án NĐ 232
           </p>
         </div>
 
@@ -245,7 +271,7 @@ export default function Dashboard({ onSelectPosition, setActiveTab }) {
             </div>
             <button
               onClick={() => setActiveTab('positions')}
-              className="text-xs font-semibold text-blue-600 hover:text-blue-800 flex items-center gap-1"
+              className="text-xs font-semibold text-blue-600 hover:text-blue-800 flex items-center gap-1 cursor-pointer"
             >
               Xem tất cả <ChevronRight className="w-3.5 h-3.5" />
             </button>
@@ -394,6 +420,7 @@ export default function Dashboard({ onSelectPosition, setActiveTab }) {
                 <th className="p-3.5 text-center">Biên chế 2027</th>
                 <th className="p-3.5 text-center">Phương pháp</th>
                 <th className="p-3.5 text-right">Tổng giờ B1</th>
+                <th className="p-3.5 text-right">Tác động B2</th>
                 <th className="p-3.5 text-center">Trạng thái</th>
                 <th className="p-3.5 text-center">Thao tác</th>
               </tr>
@@ -428,8 +455,11 @@ export default function Dashboard({ onSelectPosition, setActiveTab }) {
                   <td className="p-3.5 text-center font-mono font-medium text-slate-600">
                     {pos.demand?.method || 'PP1'}
                   </td>
-                  <td className="p-3.5 text-right font-mono font-semibold text-indigo-700">
+                  <td className="p-3.5 text-right font-mono font-semibold text-slate-700">
                     {pos.totalWorkloadHours.toLocaleString()} h
+                  </td>
+                  <td className="p-3.5 text-right font-mono font-bold text-cyan-700">
+                    {pos.demand?.b2ImpactHours ? `${pos.demand.b2ImpactHours.toLocaleString()} h` : '—'}
                   </td>
                   <td className="p-3.5 text-center">
                     <span className="inline-flex items-center gap-1 text-[11px] px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-700 border border-emerald-200 font-medium">
